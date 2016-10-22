@@ -1,0 +1,35 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  margin-top: 150px;
+  box-shadow: 0 0 5px black;
+  width: 300px;
+}
+
+.login div {
+  margin-bottom: 0.5rem;
+}
+
+.login label {
+  line-height: 1.5;
+  margin-right: 0.5rem;
+}
+
+.login a {
+  color: black;
+  cursor: default;
+}
+
+.login span {
+  margin-right: 0.5rem;
+}
+
+.login div>a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}

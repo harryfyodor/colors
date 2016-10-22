@@ -1,0 +1,858 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodeJs\\node.exe',
+1 verbose cli   'D:\\nodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'chai',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of E:\Web\Colors\package.json
+5 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel\package.json
+6 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-core\package.json
+7 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-loader\package.json
+8 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-polyfill\package.json
+9 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-es2015\package.json
+10 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-react\package.json
+11 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-react-hmre\package.json
+12 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-stage-2\package.json
+13 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\body-parser\package.json
+14 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\co\package.json
+15 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\connect-mongo\package.json
+16 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\cookie-parser\package.json
+17 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\crypto\package.json
+18 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\css-loader\package.json
+19 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\express\package.json
+20 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\express-session\package.json
+21 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\file-loader\package.json
+22 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\history\package.json
+23 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\image-webpack-loader\package.json
+24 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\isomorphic-fetch\package.json
+25 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\json-loader\package.json
+26 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\mocha\package.json
+27 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\mongodb\package.json
+28 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\morgan\package.json
+29 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\nodemailer\package.json
+30 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\rc-slider\package.json
+31 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react\package.json
+32 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-addons-css-transition-group\package.json
+33 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-addons-transition-group\package.json
+34 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-classset\package.json
+35 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3\package.json
+36 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3-basic\package.json
+37 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3-core\package.json
+38 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-dom\package.json
+39 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-redux\package.json
+40 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-router\package.json
+41 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-router-redux\package.json
+42 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\recharts\package.json
+43 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux\package.json
+44 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools\package.json
+45 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools-dock-monitor\package.json
+46 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools-log-monitor\package.json
+47 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-logger\package.json
+48 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-saga\package.json
+49 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-slider-monitor\package.json
+50 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\style-loader\package.json
+51 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack\package.json
+52 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack-dev-middleware\package.json
+53 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack-hot-middleware\package.json
+54 info package.json webpack-dev-middleware@1.8.1 No README data
+55 info package.json crypto@0.0.3 crypto is also the name of a node core module.
+56 info package.json crypto@0.0.3 No license field.
+57 info package.json image-webpack-loader@2.0.0 No license field.
+58 info package.json rc-slider@5.1.1 No license field.
+59 info package.json react-classset@0.0.2 license should be a valid SPDX license expression
+60 info package.json react-d3-basic@1.6.11 No repository field.
+61 info package.json react-d3-basic@1.6.11 license should be a valid SPDX license expression
+62 info package.json react-d3-core@1.3.9 No repository field.
+63 info package.json react-d3-core@1.3.9 license should be a valid SPDX license expression
+64 verbose readDependencies loading dependencies from E:\Web\Colors\package.json
+65 silly cache add args [ 'chai', null ]
+66 verbose cache add spec chai
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'chai',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'chai',
+67 silly cache add   rawSpec: '',
+67 silly cache add   spec: 'latest',
+67 silly cache add   type: 'tag' }
+68 silly addNamed chai@latest
+69 verbose addNamed "latest" is being treated as a dist-tag for chai
+70 info addNameTag [ 'chai', 'latest' ]
+71 silly mapToRegistry name chai
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/chai
+75 verbose addNameTag registry:https://registry.npmjs.org/chai not in flight; fetching
+76 verbose request uri https://registry.npmjs.org/chai
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 11:54:02
+79 verbose request id d0593a741880708a
+80 verbose etag "DTT74GEA46VK22T212QB3HP8J"
+81 http request GET https://registry.npmjs.org/chai
+82 http 200 https://registry.npmjs.org/chai
+83 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+83 verbose headers   etag: '"25WEYUE5ZOHUQD18S9478U9UI"',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'content-encoding': 'gzip',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'content-length': '11501',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Sat, 15 Oct 2016 03:54:04 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '179',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+83 verbose headers   'x-cache': 'HIT',
+83 verbose headers   'x-cache-hits': '2',
+83 verbose headers   'x-timer': 'S1476503644.158533,VS0,VE0',
+83 verbose headers   vary: 'Accept-Encoding' }
+84 silly get cb [ 200,
+84 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+84 silly get     etag: '"25WEYUE5ZOHUQD18S9478U9UI"',
+84 silly get     'content-type': 'application/json',
+84 silly get     'content-encoding': 'gzip',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'content-length': '11501',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Sat, 15 Oct 2016 03:54:04 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '179',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-lcy1128-LCY',
+84 silly get     'x-cache': 'HIT',
+84 silly get     'x-cache-hits': '2',
+84 silly get     'x-timer': 'S1476503644.158533,VS0,VE0',
+84 silly get     vary: 'Accept-Encoding' } ]
+85 verbose get saving chai to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\chai\.cache.json
+86 silly addNameTag next cb for chai with tag latest
+87 silly addNamed chai@3.5.0
+88 verbose addNamed "3.5.0" is a plain semver version for chai
+89 silly cache afterAdd chai@3.5.0
+90 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\chai\3.5.0\package\package.json not in flight; writing
+91 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\chai\3.5.0\package\package.json written
+92 silly install resolved [ { author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+92 silly install resolved     name: 'chai',
+92 silly install resolved     description: 'BDD/TDD assertion library for node.js and the browser. Test framework agnostic.',
+92 silly install resolved     keywords: [ 'test', 'assertion', 'assert', 'testing', 'chai' ],
+92 silly install resolved     homepage: 'http://chaijs.com',
+92 silly install resolved     license: 'MIT',
+92 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+92 silly install resolved     version: '3.5.0',
+92 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/chaijs/chai.git' },
+92 silly install resolved     bugs: { url: 'https://github.com/chaijs/chai/issues' },
+92 silly install resolved     main: './index',
+92 silly install resolved     scripts: { test: 'make test' },
+92 silly install resolved     engines: { node: '>= 0.4.0' },
+92 silly install resolved     dependencies:
+92 silly install resolved      { 'assertion-error': '^1.0.1',
+92 silly install resolved        'deep-eql': '^0.1.3',
+92 silly install resolved        'type-detect': '^1.0.0' },
+92 silly install resolved     devDependencies:
+92 silly install resolved      { browserify: '^10.2.1',
+92 silly install resolved        'bump-cli': '^1.1.3',
+92 silly install resolved        karma: '^0.13.16',
+92 silly install resolved        'karma-mocha': '^0.1.10',
+92 silly install resolved        'karma-sauce-launcher': '^0.2.11',
+92 silly install resolved        'karma-phantomjs-launcher': '^0.2.0',
+92 silly install resolved        'karma-firefox-launcher': '^0.1.6',
+92 silly install resolved        mocha: '^2.2.5',
+92 silly install resolved        istanbul: '^0.3.14' },
+92 silly install resolved     gitHead: '4ca0218391cf947c6cfac2d1a7424a63a4b4c232',
+92 silly install resolved     _id: 'chai@3.5.0',
+92 silly install resolved     _shasum: '4d02637b067fe958bdbfdd3a40ec56fef7373247',
+92 silly install resolved     _from: 'chai@latest',
+92 silly install resolved     _npmVersion: '3.3.12',
+92 silly install resolved     _nodeVersion: '5.5.0',
+92 silly install resolved     _npmUser: { name: 'chaijs', email: 'chaijs@keithcirkel.co.uk' },
+92 silly install resolved     dist:
+92 silly install resolved      { shasum: '4d02637b067fe958bdbfdd3a40ec56fef7373247',
+92 silly install resolved        tarball: 'https://registry.npmjs.org/chai/-/chai-3.5.0.tgz' },
+92 silly install resolved     maintainers: [ [Object], [Object] ],
+92 silly install resolved     directories: {},
+92 silly install resolved     _resolved: 'https://registry.npmjs.org/chai/-/chai-3.5.0.tgz',
+92 silly install resolved     readme: 'ERROR: No README data found!' } ]
+93 info install chai@3.5.0 into E:\Web\Colors
+94 info installOne chai@3.5.0
+95 verbose installOne of chai to E:\Web\Colors not in flight; installing
+96 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\chai-aef9bd98b1279eba.lock for E:\Web\Colors\node_modules\chai
+97 silly install write writing chai 3.5.0 to E:\Web\Colors\node_modules\chai
+98 verbose unbuild node_modules\chai
+99 silly gentlyRm E:\Web\Colors\node_modules\chai is being purged from base E:\Web\Colors
+100 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai
+101 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\chai\3.5.0\package.tgz
+102 verbose tar unpacking to E:\Web\Colors\node_modules\chai
+103 silly gentlyRm E:\Web\Colors\node_modules\chai is being purged
+104 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai
+105 silly gunzTarPerm modes [ '777', '666' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+112 silly gunzTarPerm extractEntry chai.js
+113 silly gunzTarPerm modified mode [ 'chai.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry index.js
+115 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry karma.conf.js
+117 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry karma.sauce.js
+119 silly gunzTarPerm modified mode [ 'karma.sauce.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry sauce.browsers.js
+121 silly gunzTarPerm modified mode [ 'sauce.browsers.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry ReleaseNotes.md
+123 silly gunzTarPerm modified mode [ 'ReleaseNotes.md', 420, 438 ]
+124 silly gunzTarPerm extractEntry bower.json
+125 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+126 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+127 silly gunzTarPerm modified mode [ 'CODE_OF_CONDUCT.md', 420, 438 ]
+128 silly gunzTarPerm extractEntry CONTRIBUTING.md
+129 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+130 silly gunzTarPerm extractEntry lib/chai.js
+131 silly gunzTarPerm modified mode [ 'lib/chai.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry lib/chai/assertion.js
+133 silly gunzTarPerm modified mode [ 'lib/chai/assertion.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry lib/chai/config.js
+135 silly gunzTarPerm modified mode [ 'lib/chai/config.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry lib/chai/core/assertions.js
+137 silly gunzTarPerm modified mode [ 'lib/chai/core/assertions.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry lib/chai/interface/assert.js
+139 silly gunzTarPerm modified mode [ 'lib/chai/interface/assert.js', 420, 438 ]
+140 silly gunzTarPerm extractEntry lib/chai/interface/expect.js
+141 silly gunzTarPerm modified mode [ 'lib/chai/interface/expect.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry lib/chai/interface/should.js
+143 silly gunzTarPerm modified mode [ 'lib/chai/interface/should.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry lib/chai/utils/addChainableMethod.js
+145 silly gunzTarPerm modified mode [ 'lib/chai/utils/addChainableMethod.js', 420, 438 ]
+146 silly gunzTarPerm extractEntry lib/chai/utils/getMessage.js
+147 silly gunzTarPerm modified mode [ 'lib/chai/utils/getMessage.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry lib/chai/utils/getName.js
+149 silly gunzTarPerm modified mode [ 'lib/chai/utils/getName.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry lib/chai/utils/getPathInfo.js
+151 silly gunzTarPerm modified mode [ 'lib/chai/utils/getPathInfo.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry lib/chai/utils/getEnumerableProperties.js
+153 silly gunzTarPerm modified mode [ 'lib/chai/utils/getEnumerableProperties.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry lib/chai/utils/getProperties.js
+155 silly gunzTarPerm modified mode [ 'lib/chai/utils/getProperties.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry lib/chai/utils/hasProperty.js
+157 silly gunzTarPerm modified mode [ 'lib/chai/utils/hasProperty.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry lib/chai/utils/index.js
+159 silly gunzTarPerm modified mode [ 'lib/chai/utils/index.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry lib/chai/utils/inspect.js
+161 silly gunzTarPerm modified mode [ 'lib/chai/utils/inspect.js', 420, 438 ]
+162 silly gunzTarPerm extractEntry lib/chai/utils/objDisplay.js
+163 silly gunzTarPerm modified mode [ 'lib/chai/utils/objDisplay.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry lib/chai/utils/getActual.js
+165 silly gunzTarPerm modified mode [ 'lib/chai/utils/getActual.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry lib/chai/utils/overwriteChainableMethod.js
+167 silly gunzTarPerm modified mode [ 'lib/chai/utils/overwriteChainableMethod.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry lib/chai/utils/flag.js
+169 silly gunzTarPerm modified mode [ 'lib/chai/utils/flag.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry lib/chai/utils/overwriteMethod.js
+171 silly gunzTarPerm modified mode [ 'lib/chai/utils/overwriteMethod.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry lib/chai/utils/expectTypes.js
+173 silly gunzTarPerm modified mode [ 'lib/chai/utils/expectTypes.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry lib/chai/utils/overwriteProperty.js
+175 silly gunzTarPerm modified mode [ 'lib/chai/utils/overwriteProperty.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry lib/chai/utils/addProperty.js
+177 silly gunzTarPerm modified mode [ 'lib/chai/utils/addProperty.js', 420, 438 ]
+178 silly gunzTarPerm extractEntry lib/chai/utils/test.js
+179 silly gunzTarPerm modified mode [ 'lib/chai/utils/test.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry lib/chai/utils/addMethod.js
+181 silly gunzTarPerm modified mode [ 'lib/chai/utils/addMethod.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry lib/chai/utils/transferFlags.js
+183 silly gunzTarPerm modified mode [ 'lib/chai/utils/transferFlags.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry lib/chai/utils/getPathValue.js
+185 silly gunzTarPerm modified mode [ 'lib/chai/utils/getPathValue.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry History.md
+187 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+188 verbose write writing to E:\Web\Colors\node_modules\chai\package.json
+189 info preinstall chai@3.5.0
+190 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\package.json
+191 silly prepareForInstallMany adding assertion-error@^1.0.1 from chai dependencies
+192 silly prepareForInstallMany adding deep-eql@^0.1.3 from chai dependencies
+193 silly prepareForInstallMany adding type-detect@^1.0.0 from chai dependencies
+194 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\package.json
+195 silly cache add args [ 'assertion-error@^1.0.1', null ]
+196 verbose cache add spec assertion-error@^1.0.1
+197 silly cache add args [ 'deep-eql@^0.1.3', null ]
+198 verbose cache add spec deep-eql@^0.1.3
+199 silly cache add parsed spec Result {
+199 silly cache add   raw: 'assertion-error@^1.0.1',
+199 silly cache add   scope: null,
+199 silly cache add   name: 'assertion-error',
+199 silly cache add   rawSpec: '^1.0.1',
+199 silly cache add   spec: '>=1.0.1 <2.0.0',
+199 silly cache add   type: 'range' }
+200 silly addNamed assertion-error@>=1.0.1 <2.0.0
+201 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for assertion-error
+202 silly addNameRange { name: 'assertion-error',
+202 silly addNameRange   range: '>=1.0.1 <2.0.0',
+202 silly addNameRange   hasData: false }
+203 silly mapToRegistry name assertion-error
+204 silly mapToRegistry using default registry
+205 silly mapToRegistry registry https://registry.npmjs.org/
+206 silly mapToRegistry uri https://registry.npmjs.org/assertion-error
+207 verbose addNameRange registry:https://registry.npmjs.org/assertion-error not in flight; fetching
+208 silly cache add parsed spec Result {
+208 silly cache add   raw: 'deep-eql@^0.1.3',
+208 silly cache add   scope: null,
+208 silly cache add   name: 'deep-eql',
+208 silly cache add   rawSpec: '^0.1.3',
+208 silly cache add   spec: '>=0.1.3 <0.2.0',
+208 silly cache add   type: 'range' }
+209 silly addNamed deep-eql@>=0.1.3 <0.2.0
+210 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for deep-eql
+211 silly addNameRange { name: 'deep-eql', range: '>=0.1.3 <0.2.0', hasData: false }
+212 silly mapToRegistry name deep-eql
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry uri https://registry.npmjs.org/deep-eql
+216 verbose addNameRange registry:https://registry.npmjs.org/deep-eql not in flight; fetching
+217 silly cache add args [ 'type-detect@^1.0.0', null ]
+218 verbose cache add spec type-detect@^1.0.0
+219 silly cache add parsed spec Result {
+219 silly cache add   raw: 'type-detect@^1.0.0',
+219 silly cache add   scope: null,
+219 silly cache add   name: 'type-detect',
+219 silly cache add   rawSpec: '^1.0.0',
+219 silly cache add   spec: '>=1.0.0 <2.0.0',
+219 silly cache add   type: 'range' }
+220 silly addNamed type-detect@>=1.0.0 <2.0.0
+221 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for type-detect
+222 silly addNameRange { name: 'type-detect', range: '>=1.0.0 <2.0.0', hasData: false }
+223 silly mapToRegistry name type-detect
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+227 verbose addNameRange registry:https://registry.npmjs.org/type-detect not in flight; fetching
+228 verbose request uri https://registry.npmjs.org/deep-eql
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 11:54:06
+231 verbose etag "71NTPET7771AKWW3YLIGG55M1"
+232 http request GET https://registry.npmjs.org/deep-eql
+233 verbose request uri https://registry.npmjs.org/type-detect
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 11:54:06
+236 verbose etag "3GYGYA3TZ3BB07NJDMTY9Q7O2"
+237 http request GET https://registry.npmjs.org/type-detect
+238 verbose request uri https://registry.npmjs.org/assertion-error
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 11:54:06
+241 verbose etag "3CD1PI3O1FZG8R35DHZFCBSUN"
+242 http request GET https://registry.npmjs.org/assertion-error
+243 http 200 https://registry.npmjs.org/assertion-error
+244 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+244 verbose headers   etag: '"7E2IFRE50Q304WU066KS7K1A3"',
+244 verbose headers   'content-type': 'application/json',
+244 verbose headers   'content-encoding': 'gzip',
+244 verbose headers   'cache-control': 'max-age=300',
+244 verbose headers   'content-length': '2125',
+244 verbose headers   'accept-ranges': 'bytes',
+244 verbose headers   date: 'Sat, 15 Oct 2016 03:54:08 GMT',
+244 verbose headers   via: '1.1 varnish',
+244 verbose headers   age: '214',
+244 verbose headers   connection: 'keep-alive',
+244 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+244 verbose headers   'x-cache': 'HIT',
+244 verbose headers   'x-cache-hits': '1',
+244 verbose headers   'x-timer': 'S1476503648.635268,VS0,VE0',
+244 verbose headers   vary: 'Accept-Encoding' }
+245 silly get cb [ 200,
+245 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+245 silly get     etag: '"7E2IFRE50Q304WU066KS7K1A3"',
+245 silly get     'content-type': 'application/json',
+245 silly get     'content-encoding': 'gzip',
+245 silly get     'cache-control': 'max-age=300',
+245 silly get     'content-length': '2125',
+245 silly get     'accept-ranges': 'bytes',
+245 silly get     date: 'Sat, 15 Oct 2016 03:54:08 GMT',
+245 silly get     via: '1.1 varnish',
+245 silly get     age: '214',
+245 silly get     connection: 'keep-alive',
+245 silly get     'x-served-by': 'cache-lcy1123-LCY',
+245 silly get     'x-cache': 'HIT',
+245 silly get     'x-cache-hits': '1',
+245 silly get     'x-timer': 'S1476503648.635268,VS0,VE0',
+245 silly get     vary: 'Accept-Encoding' } ]
+246 verbose get saving assertion-error to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\assertion-error\.cache.json
+247 silly addNameRange number 2 { name: 'assertion-error',
+247 silly addNameRange   range: '>=1.0.1 <2.0.0',
+247 silly addNameRange   hasData: true }
+248 silly addNameRange versions [ 'assertion-error', [ '0.1.0', '1.0.0', '1.0.1', '1.0.2' ] ]
+249 silly addNamed assertion-error@1.0.2
+250 verbose addNamed "1.0.2" is a plain semver version for assertion-error
+251 silly mapToRegistry name assertion-error
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry uri https://registry.npmjs.org/assertion-error
+255 verbose addRemoteTarball https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz not in flight; adding
+256 verbose addRemoteTarball [ 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz',
+256 verbose addRemoteTarball   '13ca515d86206da0bac66e834dd397d87581094c' ]
+257 info retry fetch attempt 1 at 11:54:08
+258 info attempt registry request try #1 at 11:54:08
+259 http fetch GET https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz
+260 http 200 https://registry.npmjs.org/deep-eql
+261 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+261 verbose headers   etag: '"8ZZ7LG9A8DI7NF6IUJDTWH2PJ"',
+261 verbose headers   'content-type': 'application/json',
+261 verbose headers   'content-encoding': 'gzip',
+261 verbose headers   'cache-control': 'max-age=300',
+261 verbose headers   'content-length': '3528',
+261 verbose headers   'accept-ranges': 'bytes',
+261 verbose headers   date: 'Sat, 15 Oct 2016 03:54:08 GMT',
+261 verbose headers   via: '1.1 varnish',
+261 verbose headers   age: '292',
+261 verbose headers   connection: 'keep-alive',
+261 verbose headers   'x-served-by': 'cache-lcy1125-LCY',
+261 verbose headers   'x-cache': 'HIT',
+261 verbose headers   'x-cache-hits': '1',
+261 verbose headers   'x-timer': 'S1476503648.250536,VS0,VE0',
+261 verbose headers   vary: 'Accept-Encoding' }
+262 silly get cb [ 200,
+262 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+262 silly get     etag: '"8ZZ7LG9A8DI7NF6IUJDTWH2PJ"',
+262 silly get     'content-type': 'application/json',
+262 silly get     'content-encoding': 'gzip',
+262 silly get     'cache-control': 'max-age=300',
+262 silly get     'content-length': '3528',
+262 silly get     'accept-ranges': 'bytes',
+262 silly get     date: 'Sat, 15 Oct 2016 03:54:08 GMT',
+262 silly get     via: '1.1 varnish',
+262 silly get     age: '292',
+262 silly get     connection: 'keep-alive',
+262 silly get     'x-served-by': 'cache-lcy1125-LCY',
+262 silly get     'x-cache': 'HIT',
+262 silly get     'x-cache-hits': '1',
+262 silly get     'x-timer': 'S1476503648.250536,VS0,VE0',
+262 silly get     vary: 'Accept-Encoding' } ]
+263 verbose get saving deep-eql to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\deep-eql\.cache.json
+264 silly addNameRange number 2 { name: 'deep-eql', range: '>=0.1.3 <0.2.0', hasData: true }
+265 silly addNameRange versions [ 'deep-eql', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0' ] ]
+266 silly addNamed deep-eql@0.1.3
+267 verbose addNamed "0.1.3" is a plain semver version for deep-eql
+268 silly cache afterAdd deep-eql@0.1.3
+269 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\deep-eql\0.1.3\package\package.json not in flight; writing
+270 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\deep-eql\0.1.3\package\package.json written
+271 http 200 https://registry.npmjs.org/type-detect
+272 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+272 verbose headers   etag: '"9L77OSYZ4VU4VBJTMBUVUJ6SU"',
+272 verbose headers   'content-type': 'application/json',
+272 verbose headers   'content-encoding': 'gzip',
+272 verbose headers   'cache-control': 'max-age=300',
+272 verbose headers   'content-length': '5217',
+272 verbose headers   'accept-ranges': 'bytes',
+272 verbose headers   date: 'Sat, 15 Oct 2016 03:54:10 GMT',
+272 verbose headers   via: '1.1 varnish',
+272 verbose headers   age: '216',
+272 verbose headers   connection: 'keep-alive',
+272 verbose headers   'x-served-by': 'cache-lcy1135-LCY',
+272 verbose headers   'x-cache': 'HIT',
+272 verbose headers   'x-cache-hits': '1',
+272 verbose headers   'x-timer': 'S1476503650.689126,VS0,VE0',
+272 verbose headers   vary: 'Accept-Encoding' }
+273 silly get cb [ 200,
+273 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+273 silly get     etag: '"9L77OSYZ4VU4VBJTMBUVUJ6SU"',
+273 silly get     'content-type': 'application/json',
+273 silly get     'content-encoding': 'gzip',
+273 silly get     'cache-control': 'max-age=300',
+273 silly get     'content-length': '5217',
+273 silly get     'accept-ranges': 'bytes',
+273 silly get     date: 'Sat, 15 Oct 2016 03:54:10 GMT',
+273 silly get     via: '1.1 varnish',
+273 silly get     age: '216',
+273 silly get     connection: 'keep-alive',
+273 silly get     'x-served-by': 'cache-lcy1135-LCY',
+273 silly get     'x-cache': 'HIT',
+273 silly get     'x-cache-hits': '1',
+273 silly get     'x-timer': 'S1476503650.689126,VS0,VE0',
+273 silly get     vary: 'Accept-Encoding' } ]
+274 verbose get saving type-detect to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\type-detect\.cache.json
+275 silly addNameRange number 2 { name: 'type-detect', range: '>=1.0.0 <2.0.0', hasData: true }
+276 silly addNameRange versions [ 'type-detect',
+276 silly addNameRange   [ '0.1.0',
+276 silly addNameRange     '0.1.1',
+276 silly addNameRange     '0.1.2',
+276 silly addNameRange     '1.0.0',
+276 silly addNameRange     '2.0.0',
+276 silly addNameRange     '2.0.1',
+276 silly addNameRange     '2.0.2',
+276 silly addNameRange     '3.0.0',
+276 silly addNameRange     '4.0.0' ] ]
+277 silly addNamed type-detect@1.0.0
+278 verbose addNamed "1.0.0" is a plain semver version for type-detect
+279 silly cache afterAdd type-detect@1.0.0
+280 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\1.0.0\package\package.json not in flight; writing
+281 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\1.0.0\package\package.json written
+282 http fetch 200 https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz
+283 silly fetchAndShaCheck shasum 13ca515d86206da0bac66e834dd397d87581094c
+284 verbose addTmpTarball C:\Users\haiwei\AppData\Local\Temp\npm-10912-c5b9c5ad\registry.npmjs.org\assertion-error\-\assertion-error-1.0.2.tgz not in flight; adding
+285 verbose addTmpTarball already have metadata; skipping unpack for assertion-error@1.0.2
+286 silly cache afterAdd assertion-error@1.0.2
+287 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\assertion-error\1.0.2\package\package.json not in flight; writing
+288 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\assertion-error\1.0.2\package\package.json written
+289 silly install resolved [ { name: 'deep-eql',
+289 silly install resolved     version: '0.1.3',
+289 silly install resolved     description: 'Improved deep equality testing for Node.js and the browser.',
+289 silly install resolved     author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+289 silly install resolved     license: 'MIT',
+289 silly install resolved     keywords: [ 'deep equal', 'object equal', 'testing', 'chai util' ],
+289 silly install resolved     repository:
+289 silly install resolved      { type: 'git',
+289 silly install resolved        url: 'git+ssh://git@github.com/chaijs/deep-eql.git' },
+289 silly install resolved     engines: { node: '*' },
+289 silly install resolved     main: './index',
+289 silly install resolved     scripts: { test: 'make test' },
+289 silly install resolved     dependencies: { 'type-detect': '0.1.1' },
+289 silly install resolved     devDependencies:
+289 silly install resolved      { component: '*',
+289 silly install resolved        coveralls: '2.0.16',
+289 silly install resolved        jscoverage: '0.3.7',
+289 silly install resolved        karma: '0.10.x',
+289 silly install resolved        'karma-mocha': '*',
+289 silly install resolved        mocha: '*',
+289 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+289 silly install resolved        'simple-assert': '*' },
+289 silly install resolved     bugs: { url: 'https://github.com/chaijs/deep-eql/issues' },
+289 silly install resolved     _id: 'deep-eql@0.1.3',
+289 silly install resolved     dist:
+289 silly install resolved      { shasum: 'ef558acab8de25206cd713906d74e56930eb69f2',
+289 silly install resolved        tarball: 'https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz' },
+289 silly install resolved     _from: 'deep-eql@>=0.1.3 <0.2.0',
+289 silly install resolved     _npmVersion: '1.3.11',
+289 silly install resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+289 silly install resolved     maintainers: [ [Object] ],
+289 silly install resolved     directories: {},
+289 silly install resolved     _shasum: 'ef558acab8de25206cd713906d74e56930eb69f2',
+289 silly install resolved     _resolved: 'https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz',
+289 silly install resolved     readme: 'ERROR: No README data found!',
+289 silly install resolved     homepage: 'https://github.com/chaijs/deep-eql#readme' },
+289 silly install resolved   { name: 'type-detect',
+289 silly install resolved     version: '1.0.0',
+289 silly install resolved     description: 'Improved typeof detection for node.js and the browser.',
+289 silly install resolved     author:
+289 silly install resolved      { name: 'Jake Luer',
+289 silly install resolved        email: 'jake@alogicalparadox.com',
+289 silly install resolved        url: 'http://alogicalparadox.com' },
+289 silly install resolved     license: 'MIT',
+289 silly install resolved     keywords: [],
+289 silly install resolved     repository:
+289 silly install resolved      { type: 'git',
+289 silly install resolved        url: 'git+ssh://git@github.com/chaijs/type-detect.git' },
+289 silly install resolved     engines: { node: '*' },
+289 silly install resolved     main: './index',
+289 silly install resolved     scripts: { test: 'make test' },
+289 silly install resolved     dependencies: {},
+289 silly install resolved     devDependencies:
+289 silly install resolved      { component: '*',
+289 silly install resolved        coveralls: '2.0.16',
+289 silly install resolved        jscoverage: '0.3.7',
+289 silly install resolved        mocha: '*',
+289 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+289 silly install resolved        'mocha-phantomjs': '*',
+289 silly install resolved        'simple-assert': '*' },
+289 silly install resolved     gitHead: '3617862cbaa220d3700cfc9e96c6d3feb49e9587',
+289 silly install resolved     bugs: { url: 'https://github.com/chaijs/type-detect/issues' },
+289 silly install resolved     homepage: 'https://github.com/chaijs/type-detect',
+289 silly install resolved     _id: 'type-detect@1.0.0',
+289 silly install resolved     _shasum: '762217cc06db258ec48908a1298e8b95121e8ea2',
+289 silly install resolved     _from: 'type-detect@>=1.0.0 <2.0.0',
+289 silly install resolved     _npmVersion: '2.3.0',
+289 silly install resolved     _nodeVersion: '0.11.16',
+289 silly install resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+289 silly install resolved     maintainers: [ [Object] ],
+289 silly install resolved     dist:
+289 silly install resolved      { shasum: '762217cc06db258ec48908a1298e8b95121e8ea2',
+289 silly install resolved        tarball: 'https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz' },
+289 silly install resolved     directories: {},
+289 silly install resolved     _resolved: 'https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz',
+289 silly install resolved     readme: 'ERROR: No README data found!' },
+289 silly install resolved   { name: 'assertion-error',
+289 silly install resolved     version: '1.0.2',
+289 silly install resolved     description: 'Error constructor for test and validation frameworks that implements standardized AssertionError specification.',
+289 silly install resolved     author:
+289 silly install resolved      { name: 'Jake Luer',
+289 silly install resolved        email: 'jake@qualiancy.com',
+289 silly install resolved        url: 'http://qualiancy.com' },
+289 silly install resolved     license: 'MIT',
+289 silly install resolved     keywords: [ 'test', 'assertion', 'assertion-error' ],
+289 silly install resolved     repository:
+289 silly install resolved      { type: 'git',
+289 silly install resolved        url: 'git+ssh://git@github.com/chaijs/assertion-error.git' },
+289 silly install resolved     engines: { node: '*' },
+289 silly install resolved     main: './index',
+289 silly install resolved     scripts: { test: 'make test' },
+289 silly install resolved     dependencies: {},
+289 silly install resolved     devDependencies: { component: '*' },
+289 silly install resolved     gitHead: 'b36f593951c1487fa33747c9911025734923f28c',
+289 silly install resolved     bugs: { url: 'https://github.com/chaijs/assertion-error/issues' },
+289 silly install resolved     homepage: 'https://github.com/chaijs/assertion-error#readme',
+289 silly install resolved     _id: 'assertion-error@1.0.2',
+289 silly install resolved     _shasum: '13ca515d86206da0bac66e834dd397d87581094c',
+289 silly install resolved     _from: 'assertion-error@>=1.0.1 <2.0.0',
+289 silly install resolved     _npmVersion: '3.8.9',
+289 silly install resolved     _nodeVersion: '5.7.0',
+289 silly install resolved     _npmUser: { name: 'chaijs', email: 'chaijs@keithcirkel.co.uk' },
+289 silly install resolved     dist:
+289 silly install resolved      { shasum: '13ca515d86206da0bac66e834dd397d87581094c',
+289 silly install resolved        tarball: 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz' },
+289 silly install resolved     maintainers: [ [Object] ],
+289 silly install resolved     _npmOperationalInternal:
+289 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+289 silly install resolved        tmp: 'tmp/assertion-error-1.0.2.tgz_1465237527264_0.8082898685242981' },
+289 silly install resolved     directories: {},
+289 silly install resolved     _resolved: 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.2.tgz' } ]
+290 info install deep-eql@0.1.3 into E:\Web\Colors\node_modules\chai
+291 info install type-detect@1.0.0 into E:\Web\Colors\node_modules\chai
+292 info install assertion-error@1.0.2 into E:\Web\Colors\node_modules\chai
+293 info installOne deep-eql@0.1.3
+294 verbose installOne of deep-eql to E:\Web\Colors\node_modules\chai not in flight; installing
+295 info installOne type-detect@1.0.0
+296 verbose installOne of type-detect to E:\Web\Colors\node_modules\chai not in flight; installing
+297 info installOne assertion-error@1.0.2
+298 verbose installOne of assertion-error to E:\Web\Colors\node_modules\chai not in flight; installing
+299 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\type-detect-7b731c42a92627f3.lock for E:\Web\Colors\node_modules\chai\node_modules\type-detect
+300 silly install write writing type-detect 1.0.0 to E:\Web\Colors\node_modules\chai\node_modules\type-detect
+301 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\deep-eql-b580ab406304a71d.lock for E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+302 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\assertion-error-a440b49de0f2efe3.lock for E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+303 silly install write writing deep-eql 0.1.3 to E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+304 silly install write writing assertion-error 1.0.2 to E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+305 verbose unbuild node_modules\chai\node_modules\type-detect
+306 verbose unbuild node_modules\chai\node_modules\deep-eql
+307 verbose unbuild node_modules\chai\node_modules\assertion-error
+308 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\type-detect is being purged from base E:\Web\Colors
+309 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\type-detect
+310 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\1.0.0\package.tgz
+311 verbose tar unpacking to E:\Web\Colors\node_modules\chai\node_modules\type-detect
+312 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\type-detect is being purged
+313 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\type-detect
+314 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\deep-eql is being purged from base E:\Web\Colors
+315 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+316 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\assertion-error is being purged from base E:\Web\Colors
+317 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+318 silly gunzTarPerm modes [ '777', '666' ]
+319 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\deep-eql\0.1.3\package.tgz
+320 verbose tar unpacking to E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+321 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\deep-eql is being purged
+322 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+323 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\assertion-error\1.0.2\package.tgz
+324 verbose tar unpacking to E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+325 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\assertion-error is being purged
+326 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+327 silly gunzTarPerm modes [ '777', '666' ]
+328 silly gunzTarPerm modes [ '777', '666' ]
+329 silly gunzTarPerm extractEntry package.json
+330 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+331 silly gunzTarPerm extractEntry .npmignore
+332 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+333 silly gunzTarPerm extractEntry README.md
+334 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+335 silly gunzTarPerm extractEntry package.json
+336 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+337 silly gunzTarPerm extractEntry package.json
+338 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+339 silly gunzTarPerm extractEntry .npmignore
+340 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+341 silly gunzTarPerm extractEntry README.md
+342 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+343 silly gunzTarPerm extractEntry .npmignore
+344 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+345 silly gunzTarPerm extractEntry README.md
+346 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+347 silly gunzTarPerm extractEntry index.js
+348 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry History.md
+350 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+351 silly gunzTarPerm extractEntry index.js
+352 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+353 silly gunzTarPerm extractEntry History.md
+354 silly gunzTarPerm modified mode [ 'History.md', 436, 438 ]
+355 silly gunzTarPerm extractEntry ReleaseNotes.md
+356 silly gunzTarPerm modified mode [ 'ReleaseNotes.md', 436, 438 ]
+357 silly gunzTarPerm extractEntry lib/type.js
+358 silly gunzTarPerm modified mode [ 'lib/type.js', 436, 438 ]
+359 silly gunzTarPerm extractEntry index.js
+360 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+361 silly gunzTarPerm extractEntry karma.conf.js
+362 silly gunzTarPerm modified mode [ 'karma.conf.js', 420, 438 ]
+363 silly gunzTarPerm extractEntry History.md
+364 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+365 silly gunzTarPerm extractEntry lib/eql.js
+366 silly gunzTarPerm modified mode [ 'lib/eql.js', 420, 438 ]
+367 verbose write writing to E:\Web\Colors\node_modules\chai\node_modules\assertion-error\package.json
+368 verbose write writing to E:\Web\Colors\node_modules\chai\node_modules\type-detect\package.json
+369 info preinstall assertion-error@1.0.2
+370 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\assertion-error\package.json
+371 verbose write writing to E:\Web\Colors\node_modules\chai\node_modules\deep-eql\package.json
+372 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\assertion-error\package.json
+373 info preinstall type-detect@1.0.0
+374 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\type-detect\package.json
+375 silly install resolved []
+376 verbose about to build E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+377 info build E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+378 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\type-detect\package.json
+379 info preinstall deep-eql@0.1.3
+380 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\deep-eql\package.json
+381 silly install resolved []
+382 verbose about to build E:\Web\Colors\node_modules\chai\node_modules\type-detect
+383 info build E:\Web\Colors\node_modules\chai\node_modules\type-detect
+384 silly prepareForInstallMany adding type-detect@0.1.1 from deep-eql dependencies
+385 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\deep-eql\package.json
+386 info linkStuff assertion-error@1.0.2
+387 silly linkStuff assertion-error@1.0.2 has E:\Web\Colors\node_modules\chai\node_modules as its parent node_modules
+388 info linkStuff type-detect@1.0.0
+389 silly linkStuff type-detect@1.0.0 has E:\Web\Colors\node_modules\chai\node_modules as its parent node_modules
+390 verbose linkBins assertion-error@1.0.2
+391 verbose linkMans assertion-error@1.0.2
+392 verbose rebuildBundles assertion-error@1.0.2
+393 info install assertion-error@1.0.2
+394 verbose linkBins type-detect@1.0.0
+395 verbose linkMans type-detect@1.0.0
+396 verbose rebuildBundles type-detect@1.0.0
+397 info install type-detect@1.0.0
+398 info postinstall assertion-error@1.0.2
+399 info postinstall type-detect@1.0.0
+400 silly cache add args [ 'type-detect@0.1.1', null ]
+401 verbose cache add spec type-detect@0.1.1
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'type-detect@0.1.1',
+402 silly cache add   scope: null,
+402 silly cache add   name: 'type-detect',
+402 silly cache add   rawSpec: '0.1.1',
+402 silly cache add   spec: '0.1.1',
+402 silly cache add   type: 'version' }
+403 silly addNamed type-detect@0.1.1
+404 verbose addNamed "0.1.1" is a plain semver version for type-detect
+405 silly mapToRegistry name type-detect
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry uri https://registry.npmjs.org/type-detect
+409 verbose addNameVersion registry:https://registry.npmjs.org/type-detect not in flight; fetching
+410 verbose unlock done using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\assertion-error-a440b49de0f2efe3.lock for E:\Web\Colors\node_modules\chai\node_modules\assertion-error
+411 verbose get https://registry.npmjs.org/type-detect not expired, no request
+412 verbose unlock done using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\type-detect-7b731c42a92627f3.lock for E:\Web\Colors\node_modules\chai\node_modules\type-detect
+413 silly cache afterAdd type-detect@0.1.1
+414 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\0.1.1\package\package.json not in flight; writing
+415 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\0.1.1\package\package.json written
+416 silly install resolved [ { name: 'type-detect',
+416 silly install resolved     version: '0.1.1',
+416 silly install resolved     description: 'Improved typeof detection for node.js and the browser.',
+416 silly install resolved     author:
+416 silly install resolved      { name: 'Jake Luer',
+416 silly install resolved        email: 'jake@alogicalparadox.com',
+416 silly install resolved        url: 'http://alogicalparadox.com' },
+416 silly install resolved     license: 'MIT',
+416 silly install resolved     keywords: [],
+416 silly install resolved     repository:
+416 silly install resolved      { type: 'git',
+416 silly install resolved        url: 'git+ssh://git@github.com/chaijs/type-detect.git' },
+416 silly install resolved     engines: { node: '*' },
+416 silly install resolved     main: './index',
+416 silly install resolved     scripts: { test: 'make test' },
+416 silly install resolved     dependencies: {},
+416 silly install resolved     devDependencies:
+416 silly install resolved      { component: '*',
+416 silly install resolved        coveralls: '2.0.16',
+416 silly install resolved        jscoverage: '0.3.7',
+416 silly install resolved        mocha: '*',
+416 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+416 silly install resolved        'mocha-phantomjs': '*',
+416 silly install resolved        'simple-assert': '*' },
+416 silly install resolved     bugs: { url: 'https://github.com/chaijs/type-detect/issues' },
+416 silly install resolved     _id: 'type-detect@0.1.1',
+416 silly install resolved     dist:
+416 silly install resolved      { shasum: '0ba5ec2a885640e470ea4e8505971900dac58822',
+416 silly install resolved        tarball: 'https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz' },
+416 silly install resolved     _from: 'type-detect@0.1.1',
+416 silly install resolved     _npmVersion: '1.3.11',
+416 silly install resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+416 silly install resolved     maintainers: [ [Object] ],
+416 silly install resolved     directories: {},
+416 silly install resolved     _shasum: '0ba5ec2a885640e470ea4e8505971900dac58822',
+416 silly install resolved     _resolved: 'https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz',
+416 silly install resolved     readme: 'ERROR: No README data found!',
+416 silly install resolved     homepage: 'https://github.com/chaijs/type-detect#readme' } ]
+417 info install type-detect@0.1.1 into E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+418 info installOne type-detect@0.1.1
+419 verbose installOne of type-detect to E:\Web\Colors\node_modules\chai\node_modules\deep-eql not in flight; installing
+420 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\type-detect-975169e2c42202c2.lock for E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+421 silly install write writing type-detect 0.1.1 to E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+422 verbose unbuild node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+423 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect is being purged from base E:\Web\Colors
+424 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+425 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\type-detect\0.1.1\package.tgz
+426 verbose tar unpacking to E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+427 silly gentlyRm E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect is being purged
+428 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+429 silly gunzTarPerm modes [ '777', '666' ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+432 silly gunzTarPerm extractEntry .npmignore
+433 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+434 silly gunzTarPerm extractEntry README.md
+435 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+436 silly gunzTarPerm extractEntry index.js
+437 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+438 silly gunzTarPerm extractEntry History.md
+439 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+440 silly gunzTarPerm extractEntry lib/type.js
+441 silly gunzTarPerm modified mode [ 'lib/type.js', 420, 438 ]
+442 verbose write writing to E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect\package.json
+443 info preinstall type-detect@0.1.1
+444 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect\package.json
+445 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect\package.json
+446 silly install resolved []
+447 verbose about to build E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+448 info build E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+449 info linkStuff type-detect@0.1.1
+450 silly linkStuff type-detect@0.1.1 has E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules as its parent node_modules
+451 verbose linkBins type-detect@0.1.1
+452 verbose linkMans type-detect@0.1.1
+453 verbose rebuildBundles type-detect@0.1.1
+454 info install type-detect@0.1.1
+455 info postinstall type-detect@0.1.1
+456 verbose unlock done using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\type-detect-975169e2c42202c2.lock for E:\Web\Colors\node_modules\chai\node_modules\deep-eql\node_modules\type-detect
+457 verbose about to build E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+458 info build E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+459 info linkStuff deep-eql@0.1.3
+460 silly linkStuff deep-eql@0.1.3 has E:\Web\Colors\node_modules\chai\node_modules as its parent node_modules
+461 verbose linkBins deep-eql@0.1.3
+462 verbose linkMans deep-eql@0.1.3
+463 verbose rebuildBundles deep-eql@0.1.3
+464 verbose rebuildBundles [ 'type-detect' ]
+465 info install deep-eql@0.1.3
+466 info postinstall deep-eql@0.1.3
+467 verbose unlock done using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\deep-eql-b580ab406304a71d.lock for E:\Web\Colors\node_modules\chai\node_modules\deep-eql
+468 verbose about to build E:\Web\Colors\node_modules\chai
+469 info build E:\Web\Colors\node_modules\chai
+470 info linkStuff chai@3.5.0
+471 silly linkStuff chai@3.5.0 has E:\Web\Colors\node_modules as its parent node_modules
+472 verbose linkBins chai@3.5.0
+473 verbose linkMans chai@3.5.0
+474 verbose rebuildBundles chai@3.5.0
+475 verbose rebuildBundles [ 'assertion-error', 'deep-eql', 'type-detect' ]
+476 info install chai@3.5.0
+477 info postinstall chai@3.5.0
+478 verbose unlock done using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\chai-aef9bd98b1279eba.lock for E:\Web\Colors\node_modules\chai
+479 verbose validateInstall loading E:\Web\Colors\package.json for validation
+480 verbose stack Error: The package react-dom@15.3.1 does not satisfy its siblings' peerDependencies requirements!
+480 verbose stack     at D:\nodeJs\node_modules\npm\lib\install.js:125:32
+480 verbose stack     at D:\nodeJs\node_modules\npm\lib\install.js:268:7
+480 verbose stack     at D:\nodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+480 verbose stack     at D:\nodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+480 verbose stack     at cb (D:\nodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+480 verbose stack     at D:\nodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+480 verbose stack     at cb (D:\nodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+480 verbose stack     at D:\nodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+480 verbose stack     at cb (D:\nodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+480 verbose stack     at D:\nodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+481 verbose cwd E:\Web\Colors\public\test
+482 error Windows_NT 10.0.14393
+483 error argv "D:\\nodeJs\\node.exe" "D:\\nodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "chai" "--save-dev"
+484 error node v4.3.1
+485 error npm  v2.14.12
+486 error code EPEERINVALID
+487 error peerinvalid The package react-dom@15.3.1 does not satisfy its siblings' peerDependencies requirements!
+488 verbose exit [ 1, true ]

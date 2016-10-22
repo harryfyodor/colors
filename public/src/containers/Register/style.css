@@ -1,0 +1,18 @@
+.register {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 1rem;
+}
+
+.register div {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.2rem;
+}
+
+.register label {
+  margin-right: 0.2rem;
+  line-height: 1.5;
+}

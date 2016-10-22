@@ -1,0 +1,45 @@
+.rank {
+  width: 650px;
+  margin: 50px auto;
+}
+
+.rank h1 {
+  line-height: 2;
+}
+
+.rank>div {
+  width: 100%;
+}
+
+.rank ul {
+  box-sizing: border-box;
+}
+
+.rank li {
+  display: flex;
+  width: 100%;
+  line-height: 2;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.rank li:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 1px black;
+}
+
+.rank li div {
+  height: 2rem;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 1px black;
+}
+
+.rank li div>div {
+  height: 2rem;
+}
+
+.rank li span {
+  width:90px;
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+.collection {
+  width: 635px;
+  margin: 50px auto;
+}
+
+.collection h1 {
+  line-height: 2;
+}
+
+.cards ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 50px 20px 50px;
+}
+
+.cards li {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 3px black;
+}
+
+.cards li:hover {
+  animation: shadow 1s;
+  box-shadow: 0 0 7px black;
+}
+
+.cards li h3 {
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+.cards li span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cards li:hover span {
+  animation: spanShadow, 1s;
+  color: rgba(255, 255, 255, 1);
+}
+
+@keyframes shadow {
+  from {
+    box-shadow: 0 0 3px black;   
+  }
+  to {
+    box-shadow: 0 0 8px black;     
+  }
+}
+
+@keyframes spanShadow {
+  from {
+    color: rgba(255, 255, 255, 0.5);  
+  }
+  to {
+    color: rgba(255, 255, 255, 1);    
+  }
+}
+
+.exp {
+  background-color: rgba(255, 255, 255, 0.5); 
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.exp>div {
+  width: 100%;
+}
+
+.exp>div>div {
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 0 0 2px black;
+}

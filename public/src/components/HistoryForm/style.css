@@ -1,0 +1,56 @@
+.colorForm>ul>li {
+  width: 100%;
+  border-bottom: 1px solid white;
+  line-height: 2;
+  padding: 0.5rem;
+}
+
+.colorForm>ul>li:hover {
+  animation: turnWhite 1s;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.colorForm>ul>li>* {
+  display: inline-block;
+}
+
+.colorForm>ul>li div {
+  display: block;
+  width: 100%;
+}
+
+.colorForm li li {
+  display: inline-block;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  padding: 0.1rem 0.3rem;
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.colorForm li li:hover {
+  animation: turnRed 1s;
+  cursor: pointer;
+  background-color: pink;
+}
+
+.colorForm>ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.colorForm h3,
+.colorForm time,
+.colorForm li>p {
+  margin-right: 1rem;
+}
+
+@keyframes turnWhite {
+  from {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}

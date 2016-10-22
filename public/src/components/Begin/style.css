@@ -1,0 +1,39 @@
+.begin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px black;
+  margin: 50px auto;
+  width: 400px;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.begin h1,
+.begin button {
+  text-align: center;
+}
+
+.begin ol {
+  margin-left: 1rem;
+  padding: 0 1rem  0 1rem;
+}
+
+.begin li {
+  list-style-type: upper-alpha;
+}
+
+.begin button {
+  width: 6rem;
+  height: 3rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.begin button a {
+  padding: 1rem 2rem;
+}
+
+.begin p {
+  padding: 0 1rem  0 1rem;
+}

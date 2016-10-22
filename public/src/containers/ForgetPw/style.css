@@ -1,0 +1,12 @@
+.forget {
+  width: 310px;
+}
+
+.forget input {
+  line-height: 1.5;
+  padding: 0rem 0.3rem;
+}
+
+.forget label {
+  line-height: 1.5;
+}

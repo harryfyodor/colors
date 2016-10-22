@@ -1,0 +1,10 @@
+.activate {
+  width: 400px;
+  margin: 50px auto;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.activate div {
+  text-align: center;
+}

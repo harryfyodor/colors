@@ -1,0 +1,1171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodeJs\\node.exe',
+1 verbose cli   'D:\\nodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'supertest',
+1 verbose cli   '--save',
+1 verbose cli   '-dev' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of E:\Web\Colors\package.json
+5 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel\package.json
+6 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-core\package.json
+7 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-loader\package.json
+8 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-polyfill\package.json
+9 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-es2015\package.json
+10 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-react\package.json
+11 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-react-hmre\package.json
+12 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\babel-preset-stage-2\package.json
+13 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\body-parser\package.json
+14 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\chai\package.json
+15 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\co\package.json
+16 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\connect-mongo\package.json
+17 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\cookie-parser\package.json
+18 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\crypto\package.json
+19 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\css-loader\package.json
+20 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\express\package.json
+21 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\express-session\package.json
+22 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\file-loader\package.json
+23 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\history\package.json
+24 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\image-webpack-loader\package.json
+25 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\isomorphic-fetch\package.json
+26 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\json-loader\package.json
+27 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\mocha\package.json
+28 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\mongodb\package.json
+29 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\morgan\package.json
+30 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\nodemailer\package.json
+31 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\rc-slider\package.json
+32 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react\package.json
+33 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-addons-css-transition-group\package.json
+34 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-addons-transition-group\package.json
+35 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-classset\package.json
+36 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3\package.json
+37 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3-basic\package.json
+38 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-d3-core\package.json
+39 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-dom\package.json
+40 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-redux\package.json
+41 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-router\package.json
+42 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\react-router-redux\package.json
+43 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\recharts\package.json
+44 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux\package.json
+45 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools\package.json
+46 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools-dock-monitor\package.json
+47 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-devtools-log-monitor\package.json
+48 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-logger\package.json
+49 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-saga\package.json
+50 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\redux-slider-monitor\package.json
+51 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\style-loader\package.json
+52 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack\package.json
+53 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack-dev-middleware\package.json
+54 verbose installManyTop reading scoped package data from E:\Web\Colors\node_modules\webpack-hot-middleware\package.json
+55 info package.json webpack-dev-middleware@1.8.1 No README data
+56 info package.json crypto@0.0.3 crypto is also the name of a node core module.
+57 info package.json crypto@0.0.3 No license field.
+58 info package.json image-webpack-loader@2.0.0 No license field.
+59 info package.json rc-slider@5.1.1 No license field.
+60 info package.json react-classset@0.0.2 license should be a valid SPDX license expression
+61 info package.json react-d3-basic@1.6.11 No repository field.
+62 info package.json react-d3-basic@1.6.11 license should be a valid SPDX license expression
+63 info package.json react-d3-core@1.3.9 No repository field.
+64 info package.json react-d3-core@1.3.9 license should be a valid SPDX license expression
+65 verbose readDependencies loading dependencies from E:\Web\Colors\package.json
+66 silly cache add args [ 'supertest', null ]
+67 verbose cache add spec supertest
+68 silly cache add parsed spec Result {
+68 silly cache add   raw: 'supertest',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'supertest',
+68 silly cache add   rawSpec: '',
+68 silly cache add   spec: 'latest',
+68 silly cache add   type: 'tag' }
+69 silly addNamed supertest@latest
+70 verbose addNamed "latest" is being treated as a dist-tag for supertest
+71 info addNameTag [ 'supertest', 'latest' ]
+72 silly mapToRegistry name supertest
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/supertest
+76 verbose addNameTag registry:https://registry.npmjs.org/supertest not in flight; fetching
+77 verbose request uri https://registry.npmjs.org/supertest
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 12:24:24
+80 verbose request id 79d0bd5504378073
+81 verbose etag "9T9E5CMLVNB2T1W4TQRP5FTVQ"
+82 http request GET https://registry.npmjs.org/supertest
+83 http 200 https://registry.npmjs.org/supertest
+84 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+84 verbose headers   etag: '"A1SO8D79CV968SQLS5BEL7L48"',
+84 verbose headers   'content-type': 'application/json',
+84 verbose headers   'content-encoding': 'gzip',
+84 verbose headers   'cache-control': 'max-age=300',
+84 verbose headers   'content-length': '8159',
+84 verbose headers   'accept-ranges': 'bytes',
+84 verbose headers   date: 'Sat, 15 Oct 2016 04:24:27 GMT',
+84 verbose headers   via: '1.1 varnish',
+84 verbose headers   age: '180',
+84 verbose headers   connection: 'keep-alive',
+84 verbose headers   'x-served-by': 'cache-ams4122-AMS',
+84 verbose headers   'x-cache': 'HIT',
+84 verbose headers   'x-cache-hits': '1',
+84 verbose headers   'x-timer': 'S1476505467.205017,VS0,VE0',
+84 verbose headers   vary: 'Accept-Encoding' }
+85 silly get cb [ 200,
+85 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+85 silly get     etag: '"A1SO8D79CV968SQLS5BEL7L48"',
+85 silly get     'content-type': 'application/json',
+85 silly get     'content-encoding': 'gzip',
+85 silly get     'cache-control': 'max-age=300',
+85 silly get     'content-length': '8159',
+85 silly get     'accept-ranges': 'bytes',
+85 silly get     date: 'Sat, 15 Oct 2016 04:24:27 GMT',
+85 silly get     via: '1.1 varnish',
+85 silly get     age: '180',
+85 silly get     connection: 'keep-alive',
+85 silly get     'x-served-by': 'cache-ams4122-AMS',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '1',
+85 silly get     'x-timer': 'S1476505467.205017,VS0,VE0',
+85 silly get     vary: 'Accept-Encoding' } ]
+86 verbose get saving supertest to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\supertest\.cache.json
+87 silly addNameTag next cb for supertest with tag latest
+88 silly addNamed supertest@2.0.0
+89 verbose addNamed "2.0.0" is a plain semver version for supertest
+90 silly mapToRegistry name supertest
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/supertest
+94 verbose addRemoteTarball https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz',
+95 verbose addRemoteTarball   '060e18edae56e3d62b95c6e9c4e2a5e4e50979ff' ]
+96 info retry fetch attempt 1 at 12:24:28
+97 info attempt registry request try #1 at 12:24:28
+98 http fetch GET https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz
+99 http fetch 200 https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz
+100 silly fetchAndShaCheck shasum 060e18edae56e3d62b95c6e9c4e2a5e4e50979ff
+101 verbose addTmpTarball C:\Users\haiwei\AppData\Local\Temp\npm-1388-2119c49a\registry.npmjs.org\supertest\-\supertest-2.0.0.tgz not in flight; adding
+102 verbose addTmpTarball already have metadata; skipping unpack for supertest@2.0.0
+103 silly cache afterAdd supertest@2.0.0
+104 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\supertest\2.0.0\package\package.json not in flight; writing
+105 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\supertest\2.0.0\package\package.json written
+106 silly install resolved [ { name: 'supertest',
+106 silly install resolved     version: '2.0.0',
+106 silly install resolved     description: 'SuperAgent driven library for testing HTTP servers',
+106 silly install resolved     main: 'index.js',
+106 silly install resolved     scripts:
+106 silly install resolved      { pretest: 'npm install',
+106 silly install resolved        test: 'eslint lib/**/*.js test/**/*.js && mocha --require should --reporter spec --check-leaks' },
+106 silly install resolved     dependencies: { superagent: '^2.0.0', methods: '1.x' },
+106 silly install resolved     devDependencies:
+106 silly install resolved      { 'body-parser': '~1.15.0',
+106 silly install resolved        'cookie-parser': '~1.4.1',
+106 silly install resolved        eslint: '^2.8.0',
+106 silly install resolved        'eslint-config-airbnb': '^7.0.0',
+106 silly install resolved        express: '~4.14.0',
+106 silly install resolved        mocha: '~2.5.3',
+106 silly install resolved        should: '~10.0.0' },
+106 silly install resolved     engines: { node: '>=0.10.0' },
+106 silly install resolved     keywords: [ 'superagent', 'request', 'tdd', 'bdd', 'http', 'test', 'testing' ],
+106 silly install resolved     author: { name: 'TJ Holowaychuk' },
+106 silly install resolved     license: 'MIT',
+106 silly install resolved     repository:
+106 silly install resolved      { type: 'git',
+106 silly install resolved        url: 'git+https://github.com/visionmedia/supertest.git' },
+106 silly install resolved     gitHead: '054ad5737941bfba140b4bb20e7d44a5b8640f03',
+106 silly install resolved     bugs: { url: 'https://github.com/visionmedia/supertest/issues' },
+106 silly install resolved     homepage: 'https://github.com/visionmedia/supertest#readme',
+106 silly install resolved     _id: 'supertest@2.0.0',
+106 silly install resolved     _shasum: '060e18edae56e3d62b95c6e9c4e2a5e4e50979ff',
+106 silly install resolved     _from: 'supertest@latest',
+106 silly install resolved     _npmVersion: '2.14.12',
+106 silly install resolved     _nodeVersion: '4.3.2',
+106 silly install resolved     _npmUser: { name: 'mikelax', email: 'mholtzman@gmail.com' },
+106 silly install resolved     dist:
+106 silly install resolved      { shasum: '060e18edae56e3d62b95c6e9c4e2a5e4e50979ff',
+106 silly install resolved        tarball: 'https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz' },
+106 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+106 silly install resolved     _npmOperationalInternal:
+106 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+106 silly install resolved        tmp: 'tmp/supertest-2.0.0.tgz_1469802716322_0.21347057516686618' },
+106 silly install resolved     directories: {},
+106 silly install resolved     _resolved: 'https://registry.npmjs.org/supertest/-/supertest-2.0.0.tgz' } ]
+107 info install supertest@2.0.0 into E:\Web\Colors
+108 info installOne supertest@2.0.0
+109 verbose installOne of supertest to E:\Web\Colors not in flight; installing
+110 verbose lock using C:\Users\haiwei\AppData\Roaming\npm-cache\_locks\supertest-fc8e5e87ffffc6aa.lock for E:\Web\Colors\node_modules\supertest
+111 silly install write writing supertest 2.0.0 to E:\Web\Colors\node_modules\supertest
+112 verbose unbuild node_modules\supertest
+113 silly gentlyRm E:\Web\Colors\node_modules\supertest is being purged from base E:\Web\Colors
+114 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\supertest
+115 verbose tar unpack C:\Users\haiwei\AppData\Roaming\npm-cache\supertest\2.0.0\package.tgz
+116 verbose tar unpacking to E:\Web\Colors\node_modules\supertest
+117 silly gentlyRm E:\Web\Colors\node_modules\supertest is being purged
+118 verbose gentlyRm don't care about contents; nuking E:\Web\Colors\node_modules\supertest
+119 silly gunzTarPerm modes [ '777', '666' ]
+120 silly gunzTarPerm extractEntry package.json
+121 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+122 silly gunzTarPerm extractEntry .npmignore
+123 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+124 silly gunzTarPerm extractEntry LICENSE
+125 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+126 silly gunzTarPerm extractEntry index.js
+127 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+128 silly gunzTarPerm extractEntry Readme.md
+129 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+130 silly gunzTarPerm extractEntry .eslintrc
+131 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+132 silly gunzTarPerm extractEntry .travis.yml
+133 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+134 silly gunzTarPerm extractEntry lib/agent.js
+135 silly gunzTarPerm modified mode [ 'lib/agent.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry lib/test.js
+137 silly gunzTarPerm modified mode [ 'lib/test.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry History.md
+139 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+140 silly gunzTarPerm extractEntry test/supertest.js
+141 silly gunzTarPerm modified mode [ 'test/supertest.js', 420, 438 ]
+142 silly gunzTarPerm extractEntry test/.eslintrc
+143 silly gunzTarPerm modified mode [ 'test/.eslintrc', 420, 438 ]
+144 silly gunzTarPerm extractEntry test/fixtures/test_cert.pem
+145 silly gunzTarPerm modified mode [ 'test/fixtures/test_cert.pem', 420, 438 ]
+146 silly gunzTarPerm extractEntry test/fixtures/test_key.pem
+147 silly gunzTarPerm modified mode [ 'test/fixtures/test_key.pem', 420, 438 ]
+148 verbose write writing to E:\Web\Colors\node_modules\supertest\package.json
+149 info preinstall supertest@2.0.0
+150 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\supertest\package.json
+151 silly prepareForInstallMany adding superagent@^2.0.0 from supertest dependencies
+152 silly prepareForInstallMany adding methods@1.x from supertest dependencies
+153 silly prepareForInstallMany adding eslint@^2.8.0 from supertest dependencies
+154 silly prepareForInstallMany adding eslint-config-airbnb@^7.0.0 from supertest dependencies
+155 silly prepareForInstallMany adding mocha@~2.5.3 from supertest dependencies
+156 silly prepareForInstallMany adding should@~10.0.0 from supertest dependencies
+157 verbose readDependencies loading dependencies from E:\Web\Colors\node_modules\supertest\package.json
+158 silly cache add args [ 'superagent@^2.0.0', null ]
+159 verbose cache add spec superagent@^2.0.0
+160 silly cache add args [ 'methods@1.x', null ]
+161 verbose cache add spec methods@1.x
+162 silly cache add parsed spec Result {
+162 silly cache add   raw: 'superagent@^2.0.0',
+162 silly cache add   scope: null,
+162 silly cache add   name: 'superagent',
+162 silly cache add   rawSpec: '^2.0.0',
+162 silly cache add   spec: '>=2.0.0 <3.0.0',
+162 silly cache add   type: 'range' }
+163 silly addNamed superagent@>=2.0.0 <3.0.0
+164 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for superagent
+165 silly addNameRange { name: 'superagent', range: '>=2.0.0 <3.0.0', hasData: false }
+166 silly mapToRegistry name superagent
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/superagent
+170 verbose addNameRange registry:https://registry.npmjs.org/superagent not in flight; fetching
+171 silly cache add parsed spec Result {
+171 silly cache add   raw: 'methods@1.x',
+171 silly cache add   scope: null,
+171 silly cache add   name: 'methods',
+171 silly cache add   rawSpec: '1.x',
+171 silly cache add   spec: '>=1.0.0 <2.0.0',
+171 silly cache add   type: 'range' }
+172 silly addNamed methods@>=1.0.0 <2.0.0
+173 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for methods
+174 silly addNameRange { name: 'methods', range: '>=1.0.0 <2.0.0', hasData: false }
+175 silly mapToRegistry name methods
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry uri https://registry.npmjs.org/methods
+179 verbose addNameRange registry:https://registry.npmjs.org/methods not in flight; fetching
+180 silly cache add args [ 'eslint@^2.8.0', null ]
+181 verbose cache add spec eslint@^2.8.0
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'eslint@^2.8.0',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'eslint',
+182 silly cache add   rawSpec: '^2.8.0',
+182 silly cache add   spec: '>=2.8.0 <3.0.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed eslint@>=2.8.0 <3.0.0
+184 verbose addNamed ">=2.8.0 <3.0.0" is a valid semver range for eslint
+185 silly addNameRange { name: 'eslint', range: '>=2.8.0 <3.0.0', hasData: false }
+186 silly mapToRegistry name eslint
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry uri https://registry.npmjs.org/eslint
+190 verbose addNameRange registry:https://registry.npmjs.org/eslint not in flight; fetching
+191 silly cache add args [ 'eslint-config-airbnb@^7.0.0', null ]
+192 verbose cache add spec eslint-config-airbnb@^7.0.0
+193 silly cache add parsed spec Result {
+193 silly cache add   raw: 'eslint-config-airbnb@^7.0.0',
+193 silly cache add   scope: null,
+193 silly cache add   name: 'eslint-config-airbnb',
+193 silly cache add   rawSpec: '^7.0.0',
+193 silly cache add   spec: '>=7.0.0 <8.0.0',
+193 silly cache add   type: 'range' }
+194 silly addNamed eslint-config-airbnb@>=7.0.0 <8.0.0
+195 verbose addNamed ">=7.0.0 <8.0.0" is a valid semver range for eslint-config-airbnb
+196 silly addNameRange { name: 'eslint-config-airbnb',
+196 silly addNameRange   range: '>=7.0.0 <8.0.0',
+196 silly addNameRange   hasData: false }
+197 silly mapToRegistry name eslint-config-airbnb
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-airbnb
+201 verbose addNameRange registry:https://registry.npmjs.org/eslint-config-airbnb not in flight; fetching
+202 silly cache add args [ 'mocha@~2.5.3', null ]
+203 verbose cache add spec mocha@~2.5.3
+204 silly cache add parsed spec Result {
+204 silly cache add   raw: 'mocha@~2.5.3',
+204 silly cache add   scope: null,
+204 silly cache add   name: 'mocha',
+204 silly cache add   rawSpec: '~2.5.3',
+204 silly cache add   spec: '>=2.5.3 <2.6.0',
+204 silly cache add   type: 'range' }
+205 silly addNamed mocha@>=2.5.3 <2.6.0
+206 verbose addNamed ">=2.5.3 <2.6.0" is a valid semver range for mocha
+207 silly addNameRange { name: 'mocha', range: '>=2.5.3 <2.6.0', hasData: false }
+208 silly mapToRegistry name mocha
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry uri https://registry.npmjs.org/mocha
+212 verbose addNameRange registry:https://registry.npmjs.org/mocha not in flight; fetching
+213 silly cache add args [ 'should@~10.0.0', null ]
+214 verbose cache add spec should@~10.0.0
+215 silly cache add parsed spec Result {
+215 silly cache add   raw: 'should@~10.0.0',
+215 silly cache add   scope: null,
+215 silly cache add   name: 'should',
+215 silly cache add   rawSpec: '~10.0.0',
+215 silly cache add   spec: '>=10.0.0 <10.1.0',
+215 silly cache add   type: 'range' }
+216 silly addNamed should@>=10.0.0 <10.1.0
+217 verbose addNamed ">=10.0.0 <10.1.0" is a valid semver range for should
+218 silly addNameRange { name: 'should', range: '>=10.0.0 <10.1.0', hasData: false }
+219 silly mapToRegistry name should
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry uri https://registry.npmjs.org/should
+223 verbose addNameRange registry:https://registry.npmjs.org/should not in flight; fetching
+224 verbose request uri https://registry.npmjs.org/mocha
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 12:24:30
+227 verbose etag "DHQYV7YRYYVQP8WDIEKADBGW1"
+228 http request GET https://registry.npmjs.org/mocha
+229 verbose request uri https://registry.npmjs.org/superagent
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 12:24:30
+232 verbose etag "F3JFNGAHSRG3YN5LQLBJSS6EY"
+233 http request GET https://registry.npmjs.org/superagent
+234 verbose request uri https://registry.npmjs.org/methods
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 12:24:30
+237 verbose etag "C8ZYJYDAJ3123I2R0SJRXX5KD"
+238 http request GET https://registry.npmjs.org/methods
+239 verbose request uri https://registry.npmjs.org/eslint
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 12:24:30
+242 verbose etag "VXPHE2UJ7G3MKX8V6YSHB1YQ"
+243 http request GET https://registry.npmjs.org/eslint
+244 verbose request uri https://registry.npmjs.org/should
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 12:24:30
+247 verbose etag "6JTMLR433OB81VFGCZ58DC3N5"
+248 http request GET https://registry.npmjs.org/should
+249 verbose request uri https://registry.npmjs.org/eslint-config-airbnb
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 12:24:30
+252 verbose etag "56MZ5GPIRON0NE1BAKWC5CRTF"
+253 http request GET https://registry.npmjs.org/eslint-config-airbnb
+254 http 304 https://registry.npmjs.org/methods
+255 verbose headers { date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+255 verbose headers   via: '1.1 varnish',
+255 verbose headers   'cache-control': 'max-age=300',
+255 verbose headers   etag: '"C8ZYJYDAJ3123I2R0SJRXX5KD"',
+255 verbose headers   age: '188',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'x-served-by': 'cache-ams4427-AMS',
+255 verbose headers   'x-cache': 'HIT',
+255 verbose headers   'x-cache-hits': '1',
+255 verbose headers   'x-timer': 'S1476505471.385851,VS0,VE0',
+255 verbose headers   vary: 'Accept-Encoding' }
+256 silly get cb [ 304,
+256 silly get   { date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     'cache-control': 'max-age=300',
+256 silly get     etag: '"C8ZYJYDAJ3123I2R0SJRXX5KD"',
+256 silly get     age: '188',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-ams4427-AMS',
+256 silly get     'x-cache': 'HIT',
+256 silly get     'x-cache-hits': '1',
+256 silly get     'x-timer': 'S1476505471.385851,VS0,VE0',
+256 silly get     vary: 'Accept-Encoding' } ]
+257 verbose etag https://registry.npmjs.org/methods from cache
+258 verbose get saving methods to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\methods\.cache.json
+259 silly addNameRange number 2 { name: 'methods', range: '>=1.0.0 <2.0.0', hasData: true }
+260 silly addNameRange versions [ 'methods',
+260 silly addNameRange   [ '0.0.1', '0.1.0', '1.0.0', '1.0.1', '1.1.0', '1.1.1', '1.1.2' ] ]
+261 silly addNamed methods@1.1.2
+262 verbose addNamed "1.1.2" is a plain semver version for methods
+263 silly cache afterAdd methods@1.1.2
+264 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\methods\1.1.2\package\package.json not in flight; writing
+265 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\methods\1.1.2\package\package.json written
+266 http 200 https://registry.npmjs.org/superagent
+267 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+267 verbose headers   etag: '"HCDGE5YTZV75H96CE6KPX8XN"',
+267 verbose headers   'content-type': 'application/json',
+267 verbose headers   'content-encoding': 'gzip',
+267 verbose headers   'cache-control': 'max-age=300',
+267 verbose headers   'content-length': '17389',
+267 verbose headers   'accept-ranges': 'bytes',
+267 verbose headers   date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+267 verbose headers   via: '1.1 varnish',
+267 verbose headers   age: '272',
+267 verbose headers   connection: 'keep-alive',
+267 verbose headers   'x-served-by': 'cache-ams4121-AMS',
+267 verbose headers   'x-cache': 'HIT',
+267 verbose headers   'x-cache-hits': '1',
+267 verbose headers   'x-timer': 'S1476505472.275015,VS0,VE0',
+267 verbose headers   vary: 'Accept-Encoding' }
+268 silly get cb [ 200,
+268 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+268 silly get     etag: '"HCDGE5YTZV75H96CE6KPX8XN"',
+268 silly get     'content-type': 'application/json',
+268 silly get     'content-encoding': 'gzip',
+268 silly get     'cache-control': 'max-age=300',
+268 silly get     'content-length': '17389',
+268 silly get     'accept-ranges': 'bytes',
+268 silly get     date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+268 silly get     via: '1.1 varnish',
+268 silly get     age: '272',
+268 silly get     connection: 'keep-alive',
+268 silly get     'x-served-by': 'cache-ams4121-AMS',
+268 silly get     'x-cache': 'HIT',
+268 silly get     'x-cache-hits': '1',
+268 silly get     'x-timer': 'S1476505472.275015,VS0,VE0',
+268 silly get     vary: 'Accept-Encoding' } ]
+269 verbose get saving superagent to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\superagent\.cache.json
+270 silly addNameRange number 2 { name: 'superagent', range: '>=2.0.0 <3.0.0', hasData: true }
+271 silly addNameRange versions [ 'superagent',
+271 silly addNameRange   [ '0.1.1',
+271 silly addNameRange     '0.1.2',
+271 silly addNameRange     '0.1.3',
+271 silly addNameRange     '0.2.0',
+271 silly addNameRange     '0.3.0',
+271 silly addNameRange     '0.4.0',
+271 silly addNameRange     '0.4.1',
+271 silly addNameRange     '0.4.2',
+271 silly addNameRange     '0.4.3',
+271 silly addNameRange     '0.5.0',
+271 silly addNameRange     '0.5.1',
+271 silly addNameRange     '0.6.0',
+271 silly addNameRange     '0.7.0',
+271 silly addNameRange     '0.8.0',
+271 silly addNameRange     '0.8.1',
+271 silly addNameRange     '0.8.2',
+271 silly addNameRange     '0.9.0',
+271 silly addNameRange     '0.9.1',
+271 silly addNameRange     '0.9.2',
+271 silly addNameRange     '0.9.3',
+271 silly addNameRange     '0.9.4',
+271 silly addNameRange     '0.9.5',
+271 silly addNameRange     '0.9.6',
+271 silly addNameRange     '0.9.7',
+271 silly addNameRange     '0.9.8',
+271 silly addNameRange     '0.9.9',
+271 silly addNameRange     '0.9.10',
+271 silly addNameRange     '0.10.0',
+271 silly addNameRange     '0.11.0',
+271 silly addNameRange     '0.12.0',
+271 silly addNameRange     '0.12.1',
+271 silly addNameRange     '0.12.2',
+271 silly addNameRange     '0.12.3',
+271 silly addNameRange     '0.12.4',
+271 silly addNameRange     '0.13.0',
+271 silly addNameRange     '0.14.0',
+271 silly addNameRange     '0.14.1',
+271 silly addNameRange     '0.14.2',
+271 silly addNameRange     '0.14.3',
+271 silly addNameRange     '0.14.4',
+271 silly addNameRange     '0.14.5',
+271 silly addNameRange     '0.14.6',
+271 silly addNameRange     '0.14.7',
+271 silly addNameRange     '0.14.8',
+271 silly addNameRange     '0.14.9',
+271 silly addNameRange     '0.15.0',
+271 silly addNameRange     '0.15.1',
+271 silly addNameRange     '0.15.2',
+271 silly addNameRange     '0.15.3',
+271 silly addNameRange     '0.15.4',
+271 silly addNameRange     '0.15.5',
+271 silly addNameRange     '0.15.6',
+271 silly addNameRange     '0.15.7',
+271 silly addNameRange     '0.16.0',
+271 silly addNameRange     '0.17.0',
+271 silly addNameRange     '0.18.0',
+271 silly addNameRange     '0.18.1',
+271 silly addNameRange     '0.18.2',
+271 silly addNameRange     '0.19.0',
+271 silly addNameRange     '0.19.1',
+271 silly addNameRange     '0.20.0',
+271 silly addNameRange     '0.21.0',
+271 silly addNameRange     '1.0.0',
+271 silly addNameRange     '1.1.0',
+271 silly addNameRange     '1.2.0',
+271 silly addNameRange     '1.3.0',
+271 silly addNameRange     '1.4.0',
+271 silly addNameRange     '1.5.0',
+271 silly addNameRange     '1.6.0',
+271 silly addNameRange     '1.6.1',
+271 silly addNameRange     '1.7.0',
+271 silly addNameRange     '1.7.1',
+271 silly addNameRange     '1.7.2',
+271 silly addNameRange     '1.8.0-beta.1',
+271 silly addNameRange     '1.8.0-beta.2',
+271 silly addNameRange     '1.8.0',
+271 silly addNameRange     '1.8.1',
+271 silly addNameRange     '1.8.2',
+271 silly addNameRange     '1.8.3',
+271 silly addNameRange     '2.0.0-alpha.1',
+271 silly addNameRange     '2.0.0-alpha.2',
+271 silly addNameRange     '2.0.0-alpha.3',
+271 silly addNameRange     '2.0.0',
+271 silly addNameRange     '2.1.0-beta.1',
+271 silly addNameRange     '2.1.0',
+271 silly addNameRange     '1.8.4',
+271 silly addNameRange     '2.2.0',
+271 silly addNameRange     '2.3.0' ] ]
+272 silly addNamed superagent@2.3.0
+273 verbose addNamed "2.3.0" is a plain semver version for superagent
+274 silly mapToRegistry name superagent
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry uri https://registry.npmjs.org/superagent
+278 verbose addRemoteTarball https://registry.npmjs.org/superagent/-/superagent-2.3.0.tgz not in flight; adding
+279 verbose addRemoteTarball [ 'https://registry.npmjs.org/superagent/-/superagent-2.3.0.tgz',
+279 verbose addRemoteTarball   '703529a0714e57e123959ddefbce193b2e50d115' ]
+280 info retry fetch attempt 1 at 12:24:32
+281 info attempt registry request try #1 at 12:24:32
+282 http fetch GET https://registry.npmjs.org/superagent/-/superagent-2.3.0.tgz
+283 http fetch 200 https://registry.npmjs.org/superagent/-/superagent-2.3.0.tgz
+284 http 200 https://registry.npmjs.org/should
+285 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+285 verbose headers   etag: '"AWBZW0CV9PLN7E3BC48R3O1DW"',
+285 verbose headers   'content-type': 'application/json',
+285 verbose headers   'content-encoding': 'gzip',
+285 verbose headers   'cache-control': 'max-age=300',
+285 verbose headers   'content-length': '18383',
+285 verbose headers   'accept-ranges': 'bytes',
+285 verbose headers   date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   age: '0',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-ams4146-AMS',
+285 verbose headers   'x-cache': 'HIT',
+285 verbose headers   'x-cache-hits': '1',
+285 verbose headers   'x-timer': 'S1476505471.410150,VS0,VE688',
+285 verbose headers   vary: 'Accept-Encoding' }
+286 silly get cb [ 200,
+286 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+286 silly get     etag: '"AWBZW0CV9PLN7E3BC48R3O1DW"',
+286 silly get     'content-type': 'application/json',
+286 silly get     'content-encoding': 'gzip',
+286 silly get     'cache-control': 'max-age=300',
+286 silly get     'content-length': '18383',
+286 silly get     'accept-ranges': 'bytes',
+286 silly get     date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     age: '0',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-ams4146-AMS',
+286 silly get     'x-cache': 'HIT',
+286 silly get     'x-cache-hits': '1',
+286 silly get     'x-timer': 'S1476505471.410150,VS0,VE688',
+286 silly get     vary: 'Accept-Encoding' } ]
+287 verbose get saving should to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\should\.cache.json
+288 silly addNameRange number 2 { name: 'should', range: '>=10.0.0 <10.1.0', hasData: true }
+289 silly addNameRange versions [ 'should',
+289 silly addNameRange   [ '0.0.1',
+289 silly addNameRange     '0.0.2',
+289 silly addNameRange     '0.0.3',
+289 silly addNameRange     '0.0.4',
+289 silly addNameRange     '0.1.0',
+289 silly addNameRange     '0.2.0',
+289 silly addNameRange     '0.2.1',
+289 silly addNameRange     '0.3.0',
+289 silly addNameRange     '0.3.1',
+289 silly addNameRange     '0.3.2',
+289 silly addNameRange     '0.4.0',
+289 silly addNameRange     '0.4.1',
+289 silly addNameRange     '0.4.2',
+289 silly addNameRange     '0.5.0',
+289 silly addNameRange     '0.5.1',
+289 silly addNameRange     '0.6.0',
+289 silly addNameRange     '0.6.1',
+289 silly addNameRange     '0.6.2',
+289 silly addNameRange     '0.6.3',
+289 silly addNameRange     '1.0.0',
+289 silly addNameRange     '1.1.0',
+289 silly addNameRange     '1.1.1',
+289 silly addNameRange     '1.2.0',
+289 silly addNameRange     '1.2.1',
+289 silly addNameRange     '1.2.2',
+289 silly addNameRange     '1.3.0',
+289 silly addNameRange     '2.0.0',
+289 silly addNameRange     '2.0.1',
+289 silly addNameRange     '2.0.2',
+289 silly addNameRange     '2.1.0',
+289 silly addNameRange     '2.1.1',
+289 silly addNameRange     '3.0.0',
+289 silly addNameRange     '3.0.1',
+289 silly addNameRange     '3.1.0',
+289 silly addNameRange     '3.1.1',
+289 silly addNameRange     '3.1.2',
+289 silly addNameRange     '3.1.3',
+289 silly addNameRange     '3.1.4',
+289 silly addNameRange     '3.2.0-beta1',
+289 silly addNameRange     '3.2.0',
+289 silly addNameRange     '3.3.0',
+289 silly addNameRange     '3.3.1',
+289 silly addNameRange     '3.3.2',
+289 silly addNameRange     '4.0.0',
+289 silly addNameRange     '4.0.1',
+289 silly addNameRange     '4.0.3',
+289 silly addNameRange     '4.0.4',
+289 silly addNameRange     '4.1.0',
+289 silly addNameRange     '4.2.0',
+289 silly addNameRange     '4.2.1',
+289 silly addNameRange     '4.3.0',
+289 silly addNameRange     '4.3.1',
+289 silly addNameRange     '4.4.0',
+289 silly addNameRange     '4.4.1',
+289 silly addNameRange     '4.4.2',
+289 silly addNameRange     '4.4.3',
+289 silly addNameRange     '4.4.4',
+289 silly addNameRange     '4.5.0',
+289 silly addNameRange     '4.5.1',
+289 silly addNameRange     '4.5.2',
+289 silly addNameRange     '4.6.0',
+289 silly addNameRange     '4.6.1',
+289 silly addNameRange     '4.6.2',
+289 silly addNameRange     '4.6.3',
+289 silly addNameRange     '4.6.4',
+289 silly addNameRange     '4.6.5',
+289 silly addNameRange     '5.0.0',
+289 silly addNameRange     '5.0.1',
+289 silly addNameRange     '5.1.0',
+289 silly addNameRange     '5.2.0',
+289 silly addNameRange     '6.0.0',
+289 silly addNameRange     '6.0.1',
+289 silly addNameRange     '6.0.2',
+289 silly addNameRange     '6.0.3',
+289 silly addNameRange     '7.0.0',
+289 silly addNameRange     '7.0.1',
+289 silly addNameRange     '7.0.2',
+289 silly addNameRange     '7.0.3',
+289 silly addNameRange     '7.0.4',
+289 silly addNameRange     '7.1.0',
+289 silly addNameRange     '7.1.1',
+289 silly addNameRange     '8.0.0',
+289 silly addNameRange     '8.0.1',
+289 silly addNameRange     '8.0.2',
+289 silly addNameRange     '8.1.0',
+289 silly addNameRange     '8.1.1',
+289 silly addNameRange     '8.2.0',
+289 silly addNameRange     '8.2.1',
+289 silly addNameRange     '8.2.2',
+289 silly addNameRange     '8.3.0',
+289 silly addNameRange     '8.3.1',
+289 silly addNameRange     '8.3.2',
+289 silly addNameRange     '8.4.0',
+289 silly addNameRange     '9.0.0',
+289 silly addNameRange     '9.0.1',
+289 silly addNameRange     '9.0.2',
+289 silly addNameRange     '10.0.0',
+289 silly addNameRange     '11.0.0',
+289 silly addNameRange     '11.1.0',
+289 silly addNameRange     '11.1.1' ] ]
+290 silly addNamed should@10.0.0
+291 verbose addNamed "10.0.0" is a plain semver version for should
+292 silly mapToRegistry name should
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry uri https://registry.npmjs.org/should
+296 verbose addRemoteTarball https://registry.npmjs.org/should/-/should-10.0.0.tgz not in flight; adding
+297 verbose addRemoteTarball [ 'https://registry.npmjs.org/should/-/should-10.0.0.tgz',
+297 verbose addRemoteTarball   '863b82c792260a7aa6da55032bd0d854a63163fe' ]
+298 info retry fetch attempt 1 at 12:24:36
+299 info attempt registry request try #1 at 12:24:36
+300 http fetch GET https://registry.npmjs.org/should/-/should-10.0.0.tgz
+301 http fetch 200 https://registry.npmjs.org/should/-/should-10.0.0.tgz
+302 silly fetchAndShaCheck shasum 863b82c792260a7aa6da55032bd0d854a63163fe
+303 verbose addTmpTarball C:\Users\haiwei\AppData\Local\Temp\npm-1388-2119c49a\registry.npmjs.org\should\-\should-10.0.0.tgz not in flight; adding
+304 verbose addTmpTarball already have metadata; skipping unpack for should@10.0.0
+305 silly cache afterAdd should@10.0.0
+306 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\should\10.0.0\package\package.json not in flight; writing
+307 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\should\10.0.0\package\package.json written
+308 http 200 https://registry.npmjs.org/eslint
+309 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+309 verbose headers   etag: '"1HCMMVLRTDHULWOHPDOQ9RA5Y"',
+309 verbose headers   'content-type': 'application/json',
+309 verbose headers   'content-encoding': 'gzip',
+309 verbose headers   'cache-control': 'max-age=300',
+309 verbose headers   'content-length': '34770',
+309 verbose headers   'accept-ranges': 'bytes',
+309 verbose headers   date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+309 verbose headers   via: '1.1 varnish',
+309 verbose headers   age: '256',
+309 verbose headers   connection: 'keep-alive',
+309 verbose headers   'x-served-by': 'cache-ams4442-AMS',
+309 verbose headers   'x-cache': 'HIT',
+309 verbose headers   'x-cache-hits': '2',
+309 verbose headers   'x-timer': 'S1476505472.411221,VS0,VE0',
+309 verbose headers   vary: 'Accept-Encoding' }
+310 silly get cb [ 200,
+310 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+310 silly get     etag: '"1HCMMVLRTDHULWOHPDOQ9RA5Y"',
+310 silly get     'content-type': 'application/json',
+310 silly get     'content-encoding': 'gzip',
+310 silly get     'cache-control': 'max-age=300',
+310 silly get     'content-length': '34770',
+310 silly get     'accept-ranges': 'bytes',
+310 silly get     date: 'Sat, 15 Oct 2016 04:24:32 GMT',
+310 silly get     via: '1.1 varnish',
+310 silly get     age: '256',
+310 silly get     connection: 'keep-alive',
+310 silly get     'x-served-by': 'cache-ams4442-AMS',
+310 silly get     'x-cache': 'HIT',
+310 silly get     'x-cache-hits': '2',
+310 silly get     'x-timer': 'S1476505472.411221,VS0,VE0',
+310 silly get     vary: 'Accept-Encoding' } ]
+311 verbose get saving eslint to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\eslint\.cache.json
+312 silly addNameRange number 2 { name: 'eslint', range: '>=2.8.0 <3.0.0', hasData: true }
+313 silly addNameRange versions [ 'eslint',
+313 silly addNameRange   [ '0.0.4',
+313 silly addNameRange     '0.0.5',
+313 silly addNameRange     '0.0.6',
+313 silly addNameRange     '0.0.7',
+313 silly addNameRange     '0.1.0-dev',
+313 silly addNameRange     '0.1.0',
+313 silly addNameRange     '0.1.1',
+313 silly addNameRange     '0.1.2',
+313 silly addNameRange     '0.1.3',
+313 silly addNameRange     '0.1.4',
+313 silly addNameRange     '0.2.0',
+313 silly addNameRange     '0.3.0',
+313 silly addNameRange     '0.4.0',
+313 silly addNameRange     '0.4.1',
+313 silly addNameRange     '0.4.2',
+313 silly addNameRange     '0.4.3',
+313 silly addNameRange     '0.4.4',
+313 silly addNameRange     '0.4.5',
+313 silly addNameRange     '0.5.0',
+313 silly addNameRange     '0.5.1',
+313 silly addNameRange     '0.6.0',
+313 silly addNameRange     '0.6.1',
+313 silly addNameRange     '0.6.2',
+313 silly addNameRange     '0.7.1',
+313 silly addNameRange     '0.7.2',
+313 silly addNameRange     '0.7.3',
+313 silly addNameRange     '0.7.4',
+313 silly addNameRange     '0.8.0',
+313 silly addNameRange     '0.8.1',
+313 silly addNameRange     '0.8.2',
+313 silly addNameRange     '0.9.0',
+313 silly addNameRange     '0.9.1',
+313 silly addNameRange     '0.9.2',
+313 silly addNameRange     '0.10.0-alpha',
+313 silly addNameRange     '0.10.0-alpha.1',
+313 silly addNameRange     '0.10.0-alpha.2',
+313 silly addNameRange     '0.10.0',
+313 silly addNameRange     '0.11.0-alpha.0',
+313 silly addNameRange     '0.10.1',
+313 silly addNameRange     '0.10.2',
+313 silly addNameRange     '0.11.0',
+313 silly addNameRange     '0.12.0',
+313 silly addNameRange     '0.13.0',
+313 silly addNameRange     '0.14.0',
+313 silly addNameRange     '0.14.1',
+313 silly addNameRange     '0.15.0',
+313 silly addNameRange     '0.15.1',
+313 silly addNameRange     '0.16.0',
+313 silly addNameRange     '0.16.1',
+313 silly addNameRange     '0.16.2',
+313 silly addNameRange     '0.17.0',
+313 silly addNameRange     '0.17.1',
+313 silly addNameRange     '0.18.0',
+313 silly addNameRange     '0.19.0',
+313 silly addNameRange     '0.20.0',
+313 silly addNameRange     '0.21.0',
+313 silly addNameRange     '0.21.1',
+313 silly addNameRange     '0.21.2',
+313 silly addNameRange     '0.22.0',
+313 silly addNameRange     '0.22.1',
+313 silly addNameRange     '0.23.0',
+313 silly addNameRange     '0.24.0',
+313 silly addNameRange     '0.24.1',
+313 silly addNameRange     '1.0.0-rc-1',
+313 silly addNameRange     '1.0.0-rc-2',
+313 silly addNameRange     '1.0.0-rc-3',
+313 silly addNameRange     '1.0.0',
+313 silly addNameRange     '1.1.0',
+313 silly addNameRange     '1.2.0',
+313 silly addNameRange     '1.2.1',
+313 silly addNameRange     '1.3.0',
+313 silly addNameRange     '1.3.1',
+313 silly addNameRange     '1.4.0',
+313 silly addNameRange     '1.4.1',
+313 silly addNameRange     '1.4.2',
+313 silly addNameRange     '1.4.3',
+313 silly addNameRange     '1.5.0',
+313 silly addNameRange     '1.5.1',
+313 silly addNameRange     '1.6.0',
+313 silly addNameRange     '1.7.0',
+313 silly addNameRange     '1.7.1',
+313 silly addNameRange     '1.7.2',
+313 silly addNameRange     '1.7.3',
+313 silly addNameRange     '1.8.0',
+313 silly addNameRange     '1.9.0',
+313 silly addNameRange     '1.10.0',
+313 silly addNameRange     '1.10.1',
+313 silly addNameRange     '1.10.2',
+313 silly addNameRange     '1.10.3',
+313 silly addNameRange     '2.0.0-alpha-1',
+313 silly addNameRange     '2.0.0-alpha-2',
+313 silly addNameRange     '2.0.0-beta.1',
+313 silly addNameRange     '2.0.0-beta.2',
+313 silly addNameRange     '2.0.0-beta.3',
+313 silly addNameRange     '2.0.0-rc.0',
+313 silly addNameRange     '2.0.0-rc.1',
+313 silly addNameRange     '2.0.0',
+313 silly addNameRange     '2.1.0',
+313 silly addNameRange     '2.2.0',
+313 silly addNameRange     '2.3.0',
+313 silly addNameRange     '2.4.0',
+313 silly addNameRange     '2.5.0',
+313 silly addNameRange     '2.5.1',
+313 silly addNameRange     '2.5.2',
+313 silly addNameRange     '2.5.3',
+313 silly addNameRange     '2.6.0',
+313 silly addNameRange     '2.7.0',
+313 silly addNameRange     '2.8.0',
+313 silly addNameRange     '2.9.0',
+313 silly addNameRange     '2.10.0',
+313 silly addNameRange     '2.10.1',
+313 silly addNameRange     '2.10.2',
+313 silly addNameRange     '2.11.0',
+313 silly addNameRange     '2.11.1',
+313 silly addNameRange     '2.12.0',
+313 silly addNameRange     '2.13.0',
+313 silly addNameRange     '2.13.1',
+313 silly addNameRange     '3.0.0',
+313 silly addNameRange     '3.0.1',
+313 silly addNameRange     '3.1.0',
+313 silly addNameRange     '3.1.1',
+313 silly addNameRange     '3.2.0',
+313 silly addNameRange     '3.2.1',
+313 silly addNameRange     '3.2.2',
+313 silly addNameRange     '3.3.0',
+313 silly addNameRange     '3.3.1',
+313 silly addNameRange     '3.4.0',
+313 silly addNameRange     '3.5.0',
+313 silly addNameRange     '3.6.0',
+313 silly addNameRange     '3.6.1',
+313 silly addNameRange     '3.7.0',
+313 silly addNameRange     '3.7.1',
+313 silly addNameRange     '3.8.0' ] ]
+314 silly addNamed eslint@2.13.1
+315 verbose addNamed "2.13.1" is a plain semver version for eslint
+316 silly mapToRegistry name eslint
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry uri https://registry.npmjs.org/eslint
+320 verbose addRemoteTarball https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz not in flight; adding
+321 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz',
+321 verbose addRemoteTarball   'e4cc8fa0f009fb829aaae23855a29360be1f6c11' ]
+322 info retry fetch attempt 1 at 12:24:41
+323 info attempt registry request try #1 at 12:24:41
+324 http fetch GET https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz
+325 http 200 https://registry.npmjs.org/eslint-config-airbnb
+326 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+326 verbose headers   etag: '"9PUFMKI32PLZKKFO3HMGU48FI"',
+326 verbose headers   'content-type': 'application/json',
+326 verbose headers   'content-encoding': 'gzip',
+326 verbose headers   'cache-control': 'max-age=300',
+326 verbose headers   'content-length': '8217',
+326 verbose headers   'accept-ranges': 'bytes',
+326 verbose headers   date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+326 verbose headers   via: '1.1 varnish',
+326 verbose headers   age: '290',
+326 verbose headers   connection: 'keep-alive',
+326 verbose headers   'x-served-by': 'cache-ams4123-AMS',
+326 verbose headers   'x-cache': 'HIT',
+326 verbose headers   'x-cache-hits': '1',
+326 verbose headers   'x-timer': 'S1476505471.432307,VS0,VE0',
+326 verbose headers   vary: 'Accept-Encoding' }
+327 silly get cb [ 200,
+327 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+327 silly get     etag: '"9PUFMKI32PLZKKFO3HMGU48FI"',
+327 silly get     'content-type': 'application/json',
+327 silly get     'content-encoding': 'gzip',
+327 silly get     'cache-control': 'max-age=300',
+327 silly get     'content-length': '8217',
+327 silly get     'accept-ranges': 'bytes',
+327 silly get     date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+327 silly get     via: '1.1 varnish',
+327 silly get     age: '290',
+327 silly get     connection: 'keep-alive',
+327 silly get     'x-served-by': 'cache-ams4123-AMS',
+327 silly get     'x-cache': 'HIT',
+327 silly get     'x-cache-hits': '1',
+327 silly get     'x-timer': 'S1476505471.432307,VS0,VE0',
+327 silly get     vary: 'Accept-Encoding' } ]
+328 verbose get saving eslint-config-airbnb to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\eslint-config-airbnb\.cache.json
+329 silly addNameRange number 2 { name: 'eslint-config-airbnb',
+329 silly addNameRange   range: '>=7.0.0 <8.0.0',
+329 silly addNameRange   hasData: true }
+330 silly addNameRange versions [ 'eslint-config-airbnb',
+330 silly addNameRange   [ '0.0.1',
+330 silly addNameRange     '0.0.2',
+330 silly addNameRange     '0.0.4',
+330 silly addNameRange     '0.0.5',
+330 silly addNameRange     '0.0.6',
+330 silly addNameRange     '0.0.6-dev',
+330 silly addNameRange     '0.0.6-dev2',
+330 silly addNameRange     '0.0.7',
+330 silly addNameRange     '0.0.8',
+330 silly addNameRange     '0.0.9',
+330 silly addNameRange     '0.1.0',
+330 silly addNameRange     '0.1.1',
+330 silly addNameRange     '1.0.0',
+330 silly addNameRange     '1.0.2',
+330 silly addNameRange     '2.0.0',
+330 silly addNameRange     '2.1.0',
+330 silly addNameRange     '2.1.1',
+330 silly addNameRange     '3.0.0',
+330 silly addNameRange     '3.0.1',
+330 silly addNameRange     '3.0.2',
+330 silly addNameRange     '3.1.0',
+330 silly addNameRange     '4.0.0',
+330 silly addNameRange     '5.0.0',
+330 silly addNameRange     '5.0.1',
+330 silly addNameRange     '6.0.0',
+330 silly addNameRange     '6.0.1',
+330 silly addNameRange     '6.0.2',
+330 silly addNameRange     '6.1.0',
+330 silly addNameRange     '6.2.0',
+330 silly addNameRange     '7.0.0',
+330 silly addNameRange     '8.0.0',
+330 silly addNameRange     '9.0.0',
+330 silly addNameRange     '9.0.1',
+330 silly addNameRange     '10.0.0',
+330 silly addNameRange     '10.0.1',
+330 silly addNameRange     '11.0.0',
+330 silly addNameRange     '11.1.0',
+330 silly addNameRange     '11.2.0',
+330 silly addNameRange     '12.0.0' ] ]
+331 silly addNamed eslint-config-airbnb@7.0.0
+332 verbose addNamed "7.0.0" is a plain semver version for eslint-config-airbnb
+333 silly mapToRegistry name eslint-config-airbnb
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-airbnb
+337 verbose addRemoteTarball https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-7.0.0.tgz not in flight; adding
+338 verbose addRemoteTarball [ 'https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-7.0.0.tgz',
+338 verbose addRemoteTarball   'ea20532459694b59a78e608fd2f62ba2b60a3d57' ]
+339 info retry fetch attempt 1 at 12:24:44
+340 info attempt registry request try #1 at 12:24:44
+341 http fetch GET https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-7.0.0.tgz
+342 http fetch 200 https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-7.0.0.tgz
+343 silly fetchAndShaCheck shasum ea20532459694b59a78e608fd2f62ba2b60a3d57
+344 verbose addTmpTarball C:\Users\haiwei\AppData\Local\Temp\npm-1388-2119c49a\registry.npmjs.org\eslint-config-airbnb\-\eslint-config-airbnb-7.0.0.tgz not in flight; adding
+345 verbose addTmpTarball already have metadata; skipping unpack for eslint-config-airbnb@7.0.0
+346 silly cache afterAdd eslint-config-airbnb@7.0.0
+347 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\eslint-config-airbnb\7.0.0\package\package.json not in flight; writing
+348 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\eslint-config-airbnb\7.0.0\package\package.json written
+349 http fetch 200 https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz
+350 http 200 https://registry.npmjs.org/mocha
+351 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+351 verbose headers   etag: '"R7M057NHC7UKAZLS1PH796VN"',
+351 verbose headers   'content-type': 'application/json',
+351 verbose headers   'content-encoding': 'gzip',
+351 verbose headers   'cache-control': 'max-age=300',
+351 verbose headers   'content-length': '68483',
+351 verbose headers   'accept-ranges': 'bytes',
+351 verbose headers   date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+351 verbose headers   via: '1.1 varnish',
+351 verbose headers   age: '243',
+351 verbose headers   connection: 'keep-alive',
+351 verbose headers   'x-served-by': 'cache-ams4151-AMS',
+351 verbose headers   'x-cache': 'HIT',
+351 verbose headers   'x-cache-hits': '2',
+351 verbose headers   'x-timer': 'S1476505471.379637,VS0,VE0',
+351 verbose headers   vary: 'Accept-Encoding' }
+352 silly get cb [ 200,
+352 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+352 silly get     etag: '"R7M057NHC7UKAZLS1PH796VN"',
+352 silly get     'content-type': 'application/json',
+352 silly get     'content-encoding': 'gzip',
+352 silly get     'cache-control': 'max-age=300',
+352 silly get     'content-length': '68483',
+352 silly get     'accept-ranges': 'bytes',
+352 silly get     date: 'Sat, 15 Oct 2016 04:24:31 GMT',
+352 silly get     via: '1.1 varnish',
+352 silly get     age: '243',
+352 silly get     connection: 'keep-alive',
+352 silly get     'x-served-by': 'cache-ams4151-AMS',
+352 silly get     'x-cache': 'HIT',
+352 silly get     'x-cache-hits': '2',
+352 silly get     'x-timer': 'S1476505471.379637,VS0,VE0',
+352 silly get     vary: 'Accept-Encoding' } ]
+353 verbose get saving mocha to C:\Users\haiwei\AppData\Roaming\npm-cache\registry.npmjs.org\mocha\.cache.json
+354 silly addNameRange number 2 { name: 'mocha', range: '>=2.5.3 <2.6.0', hasData: true }
+355 silly addNameRange versions [ 'mocha',
+355 silly addNameRange   [ '0.0.1-alpha1',
+355 silly addNameRange     '0.0.1-alpha2',
+355 silly addNameRange     '0.0.1-alpha3',
+355 silly addNameRange     '0.0.1-alpha4',
+355 silly addNameRange     '0.0.1-alpha5',
+355 silly addNameRange     '0.0.1-alpha6',
+355 silly addNameRange     '0.0.1',
+355 silly addNameRange     '0.0.2',
+355 silly addNameRange     '0.0.3',
+355 silly addNameRange     '0.0.4',
+355 silly addNameRange     '0.0.5',
+355 silly addNameRange     '0.0.6',
+355 silly addNameRange     '0.0.7',
+355 silly addNameRange     '0.0.8',
+355 silly addNameRange     '0.1.0',
+355 silly addNameRange     '0.2.0',
+355 silly addNameRange     '0.3.0',
+355 silly addNameRange     '0.3.1',
+355 silly addNameRange     '0.3.2',
+355 silly addNameRange     '0.3.3',
+355 silly addNameRange     '0.3.4',
+355 silly addNameRange     '0.3.6',
+355 silly addNameRange     '0.4.0',
+355 silly addNameRange     '0.5.0',
+355 silly addNameRange     '0.6.0',
+355 silly addNameRange     '0.7.0',
+355 silly addNameRange     '0.7.1',
+355 silly addNameRange     '0.8.0',
+355 silly addNameRange     '0.8.1',
+355 silly addNameRange     '0.9.0',
+355 silly addNameRange     '0.10.0',
+355 silly addNameRange     '0.10.1',
+355 silly addNameRange     '0.10.2',
+355 silly addNameRange     '0.11.0',
+355 silly addNameRange     '0.12.0',
+355 silly addNameRange     '0.12.1',
+355 silly addNameRange     '0.13.0',
+355 silly addNameRange     '0.14.0',
+355 silly addNameRange     '0.14.1',
+355 silly addNameRange     '1.0.0',
+355 silly addNameRange     '1.0.1',
+355 silly addNameRange     '1.0.2',
+355 silly addNameRange     '1.0.3',
+355 silly addNameRange     '1.1.0',
+355 silly addNameRange     '1.2.0',
+355 silly addNameRange     '1.2.1',
+355 silly addNameRange     '1.2.2',
+355 silly addNameRange     '1.3.0',
+355 silly addNameRange     '1.3.1',
+355 silly addNameRange     '1.3.2',
+355 silly addNameRange     '1.4.0',
+355 silly addNameRange     '1.4.1',
+355 silly addNameRange     '1.4.2',
+355 silly addNameRange     '1.4.3',
+355 silly addNameRange     '1.5.0',
+355 silly addNameRange     '1.6.0',
+355 silly addNameRange     '1.7.0',
+355 silly addNameRange     '1.7.1',
+355 silly addNameRange     '1.7.2',
+355 silly addNameRange     '1.7.3',
+355 silly addNameRange     '1.7.4',
+355 silly addNameRange     '1.8.0',
+355 silly addNameRange     '1.8.1',
+355 silly addNameRange     '1.8.2',
+355 silly addNameRange     '1.9.0',
+355 silly addNameRange     '1.10.0',
+355 silly addNameRange     '1.11.0',
+355 silly addNameRange     '1.12.0',
+355 silly addNameRange     '1.12.1',
+355 silly addNameRange     '1.13.0',
+355 silly addNameRange     '1.14.0',
+355 silly addNameRange     '1.15.0',
+355 silly addNameRange     '1.15.1',
+355 silly addNameRange     '1.16.0',
+355 silly addNameRange     '1.16.1',
+355 silly addNameRange     '1.16.2',
+355 silly addNameRange     '1.17.0',
+355 silly addNameRange     '1.17.1',
+355 silly addNameRange     '1.18.0',
+355 silly addNameRange     '1.18.1',
+355 silly addNameRange     '1.18.2',
+355 silly addNameRange     '1.19.0',
+355 silly addNameRange     '1.20.0',
+355 silly addNameRange     '1.20.1',
+355 silly addNameRange     '1.21.0',
+355 silly addNameRange     '1.21.1',
+355 silly addNameRange     '1.21.2',
+355 silly addNameRange     '1.21.3',
+355 silly addNameRange     '1.21.4',
+355 silly addNameRange     '1.21.5',
+355 silly addNameRange     '2.0.0',
+355 silly addNameRange     '2.0.1',
+355 silly addNameRange     '2.1.0',
+355 silly addNameRange     '2.2.0',
+355 silly addNameRange     '2.2.1',
+355 silly addNameRange     '2.2.3',
+355 silly addNameRange     '2.2.4',
+355 silly addNameRange     '2.2.5',
+355 silly addNameRange     '2.3.0',
+355 silly addNameRange     '2.3.1',
+355 silly addNameRange     '2.3.2',
+355 silly addNameRange     '2.3.3',
+355 silly addNameRange     '2.3.4',
+355 silly addNameRange     '2.4.1',
+355 silly addNameRange     '2.4.2',
+355 silly addNameRange     '2.4.3',
+355 silly addNameRange     '2.4.4',
+355 silly addNameRange     '2.4.5',
+355 silly addNameRange     '2.5.0',
+355 silly addNameRange     '2.5.1',
+355 silly addNameRange     '2.5.2',
+355 silly addNameRange     '2.5.3',
+355 silly addNameRange     '3.0.0-0',
+355 silly addNameRange     '3.0.0-1',
+355 silly addNameRange     '3.0.0-2',
+355 silly addNameRange     '3.0.0',
+355 silly addNameRange     '3.0.1',
+355 silly addNameRange     '3.0.2',
+355 silly addNameRange     '3.1.0',
+355 silly addNameRange     '3.1.1',
+355 silly addNameRange     '3.1.2' ] ]
+356 silly addNamed mocha@2.5.3
+357 verbose addNamed "2.5.3" is a plain semver version for mocha
+358 silly cache afterAdd mocha@2.5.3
+359 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\mocha\2.5.3\package\package.json not in flight; writing
+360 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\mocha\2.5.3\package\package.json written
+361 silly fetchAndShaCheck shasum 703529a0714e57e123959ddefbce193b2e50d115
+362 verbose addTmpTarball C:\Users\haiwei\AppData\Local\Temp\npm-1388-2119c49a\registry.npmjs.org\superagent\-\superagent-2.3.0.tgz not in flight; adding
+363 verbose addTmpTarball already have metadata; skipping unpack for superagent@2.3.0
+364 silly cache afterAdd superagent@2.3.0
+365 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\superagent\2.3.0\package\package.json not in flight; writing
+366 verbose afterAdd C:\Users\haiwei\AppData\Roaming\npm-cache\superagent\2.3.0\package\package.json written
+367 verbose stack Error: read ECONNRESET
+367 verbose stack     at exports._errnoException (util.js:870:11)
+367 verbose stack     at TLSWrap.onread (net.js:544:26)
+368 verbose cwd E:\Web\Colors\public
+369 error Windows_NT 10.0.14393
+370 error argv "D:\\nodeJs\\node.exe" "D:\\nodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "supertest" "--save" "-dev"
+371 error node v4.3.1
+372 error npm  v2.14.12
+373 error code ECONNRESET
+374 error errno ECONNRESET
+375 error syscall read
+376 error network read ECONNRESET
+376 error network This is most likely not a problem with npm itself
+376 error network and is related to network connectivity.
+376 error network In most cases you are behind a proxy or have bad network settings.
+376 error network
+376 error network If you are behind a proxy, please make sure that the
+376 error network 'proxy' config is set properly.  See: 'npm help config'
+377 verbose exit [ 1, true ]

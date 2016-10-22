@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../../images/texture.png);
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  font-family: 'Microsoft JhengHei', "Microsoft YaHei";
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.colorName {
+  position: fixed;
+  color: white;
+  bottom: 3rem;
+  left: 2rem;
+  text-shadow: 0 0 3px black;
+}
+
+.colorNames-enter {
+  opacity: 0.01;
+}
+
+.colorNames-enter.colorNames-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.colorNames-leave {
+  opacity: 1;
+}
+
+.colorNames-leave.colorNames-leave-active {
+  opacity: 0.01;
+  transition: opacity 50ms ease-in;
+}
+
+.colorSquare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px black;
+}
+
+.colorSquare h1,
+.colorSquare h3 {
+  text-align: center;
+}
+
+.colorSquare input[type=text],
+.colorSquare input[type=password],
+.colorSquare input[type=email]  {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.colorSquare button {
+  margin: 0.2rem 0.4rem;
+  padding: 0.3rem 1rem;
+}
+
+.msg {
+  width: 100%;
+  margin: 0.5rem auto;
+  background-color: pink;
+  box-shadow: 0 0 5px white;
+  text-align: center;
+  line-height: 2rem;
+  text-shadow: 0 0 1px white;
+  margin-bottom: 0.5rem;
+}
+
+/*register*/
+.register {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 1rem;
+}
+
+.register div {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.2rem;
+}
+
+.register label {
+  margin-right: 0.2rem;
+  line-height: 1.5;
+}

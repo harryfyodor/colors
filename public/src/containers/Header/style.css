@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+  height: 3rem;
+  background-color:rgba(255, 255, 255, 0.8);
+  display: flex;
+  color: black;
+  font-size: 1rem;
+  box-shadow: 0 0 5px black;
+  color: black;
+}
+
+header a {
+  color: black;
+}
+
+header>ul {
+  display: flex; 
+  justify-content: flex-start;
+  width: 100%;
+}
+
+header>ul>li {
+  line-height: 3;
+  text-align: center;
+}
+
+header>ul>li a {
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+header>ul>li:hover {
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+header>ul>li:nth-child(1) {
+  margin-left: 2rem;
+}
+
+header>ul>li:nth-child(4) {
+  margin-left: auto;
+  margin-right: 3rem;
+  text-align: center;
+  z-index: 9999;
+}
+
+header>ul>li ul {
+  line-height: 2rem;
+  margin-top: 0.5rem;
+  background-color:rgba(255, 255, 255, 0.8);
+  color: black;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+  z-index: 99;
+}
+
+header>ul>li ul li {
+  text-align: center;
+}
+
+header>ul>li ul li:hover {
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+.menu-enter {
+  opacity: 0.01;
+}
+
+.menu-enter.menu-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.menu-leave {
+  opacity: 1;
+}
+
+.menu-leave.menu-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}

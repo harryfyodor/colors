@@ -1,0 +1,35 @@
+.history {
+  width: 800px;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px black;
+  padding-bottom: 1rem;
+  margin: 50px auto;
+}
+
+.history h1 {
+  line-height: 4rem;
+  text-align: center;
+}
+
+.history form {
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.2);
+  padding: 1rem 0;
+}
+
+.history form select {
+
+}
+
+.history form label {
+  margin: 0.5rem 0.2rem 0.5rem 1rem;
+}
+
+.history>div {
+  padding: 1rem;
+}
+
+.history h2 {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}

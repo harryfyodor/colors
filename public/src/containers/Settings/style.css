@@ -1,0 +1,15 @@
+.settings {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.settings>input {
+  width: 288px;
+  margin-bottom: 0.2rem;
+}
+
+.settings button {
+  margin: 0 auto 0.2rem auto;
+}

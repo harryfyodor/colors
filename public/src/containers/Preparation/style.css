@@ -1,0 +1,98 @@
+.preparation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 5px black;
+  margin: 3rem auto;
+  border-radius: 3px;
+  width: 400px;
+  padding: 1rem 0;
+}
+
+.preparation textarea {
+  width: 382px;
+  padding: 0.5rem;
+}
+
+.preparation ul {
+  display: flex;
+}
+
+.preparation>div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.preparation label {
+  padding-left: 1rem;
+  line-height: 2rem;
+}
+
+.preparation>button {
+  width: 4rem;
+  height: 2rem;
+}
+
+.addtags {
+  flex-direction: column;
+}
+
+.addtags div {
+  display: flex;
+  flex-direction: row;
+}
+
+.addtags ul {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+}
+
+.addtags li {
+  padding: 0 0.2rem;
+  background-color: white;
+  border-radius: 0.1rem;
+  color: black;
+  margin-right: 0.3rem;
+  box-shadow: 0 0 2px black;
+  line-height: 1.9;
+}
+
+.addtags li:hover {
+  cursor: pointer;
+  text-shadow: 0 0 2px white;
+  animation: turnRed 1s;
+  background-color: pink;
+}
+
+.addtags input {
+  padding: 0.5rem;
+  width: 340px;
+}
+
+.addtags button {
+  width: 42px;
+}
+
+.addtags ul label {
+  margin-left: -1rem;
+}
+
+.slider {
+  width: 200px;
+  height: 40px;
+}
+
+@keyframes turnRed {
+  from {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  to {
+    background-color: pink;
+    text-shadow: 0 0 2px white;
+  }
+}
